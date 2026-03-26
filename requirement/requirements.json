@@ -1,0 +1,1309 @@
+{
+    "iotUserStoryRequirements": [
+        {
+            "id": 1,
+            "initialDemand": "Dairy Milking Mastitis Early Warning System",
+            "detailedDemand": "A herd health monitoring platform for medium-sized dairy farms that collects milk conductivity, milk temperature, milking duration and cow activity data through smart milking clusters and neck tags. The system builds a cow-level mastitis risk model, warns of abnormal quarters before visible symptoms, recommends isolation and treatment workflows, and supports traceability of milk quality batches to prevent contaminated milk from entering the supply chain. It also provides equipment sanitation status monitoring and maintenance reminders, and is suitable for refined management scenarios in modern dairy parlors."
+        },
+        {
+            "id": 2,
+            "initialDemand": "Oyster Hatchery Larvae Water Quality Control System",
+            "detailedDemand": "A water quality and production management platform for coastal oyster hatcheries that continuously monitors salinity, dissolved oxygen, turbidity, ammonia nitrogen and microalgae concentration in nursery tanks. The system automatically controls water exchange valves and aeration devices according to larvae growth stages, warns of sudden salinity shocks caused by rainfall or tide changes, and supports batch-level survival rate analysis and feeding strategy optimization. It is suitable for marine seedling breeding scenarios such as oyster, scallop and clam larvae nurseries."
+        },
+        {
+            "id": 3,
+            "initialDemand": "Coffee Roastery Roast Curve Traceability System",
+            "detailedDemand": "A quality control platform for specialty coffee roasteries that captures drum temperature, bean temperature, airflow, gas valve position and roast time points in real time. The system compares actual roast curves with target profiles, alarms when deviations exceed thresholds, and generates batch traceability reports linking roasting parameters to cupping scores. It supports equipment calibration reminders, predictive maintenance for burners and fans, and is suitable for boutique roasting workshops and chain coffee central kitchens pursuing stable flavor consistency."
+        },
+        {
+            "id": 4,
+            "initialDemand": "Underground Garage CO Ventilation Optimization System",
+            "detailedDemand": "An air safety and energy-saving management platform for large underground parking garages that monitors CO/NO2 concentration, PM2.5, temperature and vehicle flow heat maps via distributed sensors. The system dynamically controls ventilation fans and air shafts based on pollutant levels and occupancy, prevents local accumulation of exhaust gases, and reduces electricity consumption by avoiding full-speed operation during low traffic periods. It supports alarm linkage to broadcast and evacuation guidance, and is suitable for residential complexes, shopping malls and transport hub garages."
+        },
+        {
+            "id": 5,
+            "initialDemand": "Theater Seat Occupancy and HVAC Zoning System",
+            "detailedDemand": "A venue comfort and operations platform for theaters and concert halls that detects seat occupancy and audience distribution through low-power sensors embedded under seats. The system links HVAC zoning to real-time crowd density, adjusts supply air temperature and volume by section, and reduces energy waste in underutilized areas. It supports event-based utilization statistics, cleaning scheduling after performances, and is suitable for theaters, cinemas and multi-purpose auditoriums."
+        },
+        {
+            "id": 6,
+            "initialDemand": "Cemetery Water-Saving Irrigation and Lawn Health System",
+            "detailedDemand": "A green maintenance platform for public cemeteries and memorial parks that monitors soil moisture, evapotranspiration and turf stress indices across different zones. The system automatically plans micro-sprinkler irrigation based on weather forecasts and visitation peaks, avoids muddy paths during high-traffic periods, and provides disease/pest risk warnings for lawns and ornamental plants. It supports irrigation equipment leakage detection and maintenance reminders, and is suitable for large memorial parks and ecological cemeteries."
+        },
+        {
+            "id": 7,
+            "initialDemand": "Diesel Locomotive Fuel Theft Detection System",
+            "detailedDemand": "A security and efficiency platform for freight railway operators that monitors fuel tank level curves, refueling events and vibration/door status on diesel locomotives. The system detects abnormal fuel drops during non-operational periods, correlates GPS location and time windows to identify high-risk points, and generates evidence reports for audits. It supports maintenance planning based on fuel consumption per route segment, and is suitable for freight lines and shunting locomotive fleets."
+        },
+        {
+            "id": 8,
+            "initialDemand": "Outdoor Sculpture Patina Corrosion Monitoring System",
+            "detailedDemand": "A conservation management platform for cities and art parks that monitors microclimate (acid rain exposure, humidity, salt spray), surface potential and corrosion indicators on outdoor bronze/steel sculptures. The system evaluates patina development and corrosion risk, reminds conservators to apply protective coatings at optimal intervals, and records restoration operations for long-term archives. It is suitable for coastal sculpture parks, historical plazas and outdoor public art installations."
+        },
+        {
+            "id": 9,
+            "initialDemand": "3D Printer Farm Fire Risk and Quality Monitoring System",
+            "detailedDemand": "An operations platform for additive manufacturing printer farms that monitors nozzle temperature stability, chamber temperature, power draw anomalies, smoke/particle sensors and camera-based print progress. The system detects thermal runaway and filament jams early, automatically pauses printing and isolates power when fire risk is identified, and aggregates defect statistics by material batch and machine. It supports maintenance reminders for hotends and filters, and is suitable for small-batch manufacturing and prototyping farms."
+        },
+        {
+            "id": 10,
+            "initialDemand": "Urban Bat Roost Biodiversity Monitoring System",
+            "detailedDemand": "A wildlife-friendly urban ecology platform that deploys ultrasonic acoustic sensors near bridges, parks and building roost sites to identify bat species and activity intensity. The system detects disturbances such as construction noise and night lighting changes, warns of habitat degradation risk, and provides data support for biodiversity assessments and pest-control ecosystem services. It supports device health monitoring and secure data sharing for research institutions, and is suitable for city biodiversity management programs."
+        },
+        {
+            "id": 11,
+            "initialDemand": "Microbrewery Fermentation and CIP Compliance System",
+            "detailedDemand": "A production quality platform for microbreweries that monitors fermentation tank temperature, pressure, CO2 release rate and specific gravity via inline sensors. The system predicts fermentation completion, controls cooling jackets to avoid off-flavors, and manages CIP (clean-in-place) cycles by recording detergent concentration, rinse conductivity and time. It supports batch traceability and equipment sanitation compliance audits, and is suitable for craft breweries and small beverage plants."
+        },
+        {
+            "id": 12,
+            "initialDemand": "Archival Film Vault Environmental Assurance System",
+            "detailedDemand": "A preservation platform for film archives and media libraries that monitors temperature, humidity, VOCs and acetic acid indicators in film storage vaults. The system warns of vinegar syndrome risk, controls dehumidification and air exchange to slow degradation, and supports shelf-level environmental mapping for targeted remediation. It includes power outage alarms and equipment maintenance scheduling, and is suitable for national archives, broadcasters and private film collections."
+        },
+        {
+            "id": 13,
+            "initialDemand": "Remote Lighthouse Power and Fog Signal Monitoring System",
+            "detailedDemand": "An unmanned maritime facility management platform for remote lighthouses that monitors solar/wind hybrid power status, battery SOC, beacon lamp intensity, and fog horn operating parameters. The system predicts battery aging, schedules maintenance trips based on risk scoring, and alarms when navigation aids fail to meet visibility requirements. It supports satellite/low-bandwidth communication modes, and is suitable for offshore islands and coastal navigation infrastructure."
+        },
+        {
+            "id": 14,
+            "initialDemand": "Mountain Ropeway Wind and Ice Safety System",
+            "detailedDemand": "A safety monitoring platform for mountain cable cars and scenic ropeways that captures wind speed/gusts, tower vibration, cable ice accretion indicators and cabin spacing in real time. The system evaluates operational risk, recommends speed reductions or shutdown decisions, and triggers de-icing workflows for critical segments. It supports incident replay and maintenance logs, and is suitable for high-altitude scenic spots and winter mountain resorts."
+        },
+        {
+            "id": 15,
+            "initialDemand": "Fishing Net Bycatch Avoidance Beacon System",
+            "detailedDemand": "A sustainable fishery assistance platform that equips nets with underwater acoustic beacons and depth sensors to reduce bycatch of protected species. The system adjusts beacon patterns based on target species and local migration data, records net deployment depth and soak time for compliance, and provides catch-efficiency analytics. It supports device battery monitoring and location tracking, and is suitable for coastal fisheries under ecological protection regulations."
+        },
+        {
+            "id": 16,
+            "initialDemand": "Fireworks Warehouse Static and Temperature Safety System",
+            "detailedDemand": "A high-risk storage safety platform for fireworks and pyrotechnics warehouses that monitors temperature gradients, humidity, electrostatic discharge risk (surface charge), and access events. The system enforces entry permission workflows, alarms when temperature/humidity exceed safe ranges, and links ventilation and anti-static grounding checks. It provides inspection records for regulatory audits and is suitable for fireworks production storage and distribution warehouses."
+        },
+        {
+            "id": 17,
+            "initialDemand": "Liquid Cooling Data Hall Leak Detection System",
+            "detailedDemand": "An infrastructure assurance platform for data centers using direct-to-chip liquid cooling that monitors manifold pressure, flow rate, coolant conductivity and drip sensors under racks. The system detects micro-leaks and abnormal pressure drops early, isolates affected loops, and provides root-cause guidance based on valve and pump telemetry. It supports maintenance workflows and is suitable for high-density AI computing clusters."
+        },
+        {
+            "id": 18,
+            "initialDemand": "Radiology Shielded Door Interlock Monitoring System",
+            "detailedDemand": "A compliance and safety platform for hospital radiology departments that monitors the status of lead-shielded doors, interlock circuits, warning lights and room occupancy. The system ensures interlocks function correctly before exposure is enabled, logs access and alarm events for audits, and alerts technicians when door seals degrade. It is suitable for CT, X-ray and interventional radiology rooms requiring strict radiation safety controls."
+        },
+        {
+            "id": 19,
+            "initialDemand": "Playground Impact Surface Wear Monitoring System",
+            "detailedDemand": "A public safety platform for municipal playgrounds that evaluates the cushioning performance of rubber tiles and sand pits through embedded pressure/compaction sensors. The system identifies zones where impact attenuation drops below safety standards due to aging or compaction, schedules maintenance, and provides inspection traceability for liability management. It is suitable for community parks, schools and large recreational areas."
+        },
+        {
+            "id": 20,
+            "initialDemand": "Coastal Seawall Crack and Tide Load Monitoring System",
+            "detailedDemand": "A resilience monitoring platform for coastal protection infrastructure that captures crack width evolution, tilt, and pore water pressure in seawalls while correlating with tide levels and wave impacts. The system warns of progressive structural weakening, supports post-storm rapid assessment, and helps prioritize reinforcement projects through risk scoring. It is suitable for coastal cities facing frequent typhoons and storm surges."
+        },
+        {
+            "id": 21,
+            "initialDemand": "Sewer Rodent Activity Early Warning System",
+            "detailedDemand": "A sanitation intelligence platform for municipal sewer networks that uses infrared and acoustic sensors at manhole nodes to detect rodent movement frequency and nesting hotspots. The system correlates activity with waste disposal patterns and seasonal changes, guides targeted baiting and sealing operations, and monitors intervention effectiveness over time. It is suitable for dense urban districts with chronic rodent problems."
+        },
+        {
+            "id": 22,
+            "initialDemand": "Compost Facility Odor and Biofilter Control System",
+            "detailedDemand": "An environmental compliance platform for organic waste composting plants that monitors ammonia, hydrogen sulfide, VOCs, and biofilter pressure drop. The system dynamically adjusts aeration rates and biofilter humidification to reduce odor emissions, warns of anaerobic zones causing process failures, and generates compliance reports for nearby communities. It is suitable for municipal composting and food waste treatment facilities."
+        },
+        {
+            "id": 23,
+            "initialDemand": "Cheese Aging Cave Microclimate Management System",
+            "detailedDemand": "A quality and traceability platform for artisan cheese caves that monitors temperature, humidity, airflow and surface mold growth indicators across shelving zones. The system recommends turning schedules, alerts when humidity drifts risk cracking or unwanted mold, and records batch aging conditions for premium product certification. It supports equipment maintenance and is suitable for small dairies and specialty cheese producers."
+        },
+        {
+            "id": 24,
+            "initialDemand": "Green Hydrogen Electrolyzer Stack Health Monitoring System",
+            "detailedDemand": "An asset management platform for renewable hydrogen production sites that monitors cell voltage distribution, stack temperature, water purity, and gas purity in electrolyzers. The system detects early membrane degradation or catalyst performance loss, optimizes operating points based on renewable power availability, and schedules preventive maintenance to reduce downtime. It is suitable for distributed green hydrogen stations and industrial pilot plants."
+        },
+        {
+            "id": 25,
+            "initialDemand": "Sourdough Starter Fermentation Consistency System",
+            "detailedDemand": "A process control platform for bakeries specializing in sourdough that monitors starter temperature, pH, CO2 release rate and feeding intervals. The system stabilizes microbial activity by guiding feeding and proofing schedules, reduces batch variability across shifts, and supports traceability of starter lineage and performance. It is suitable for artisan bakeries and chain stores with centralized starter management."
+        },
+        {
+            "id": 26,
+            "initialDemand": "Indoor Climbing Wall Hold Loosening Detection System",
+            "detailedDemand": "A facility safety platform for climbing gyms that monitors micro-vibration signatures and torque indicators of climbing holds and anchor points. The system warns of loosening holds before accidents occur, schedules inspections by route area, and records maintenance actions for safety compliance. It is suitable for bouldering halls and lead climbing venues with high route change frequency."
+        },
+        {
+            "id": 27,
+            "initialDemand": "Urban Drone Landing Pad Scheduling and Safety System",
+            "detailedDemand": "An operations platform for rooftop drone landing pads supporting deliveries and inspections that monitors pad occupancy, wind conditions, GNSS quality, and anti-intrusion sensors. The system schedules landing slots, prevents simultaneous approach conflicts, and triggers alerts when non-authorized objects enter the safety zone. It supports remote diagnostics of pad lighting and charging interfaces, and is suitable for smart buildings and logistics hubs."
+        },
+        {
+            "id": 28,
+            "initialDemand": "Koi Pond Disease Risk and Water Balance System",
+            "detailedDemand": "A niche aquatics management platform for koi breeders and hobbyist clubs that monitors ammonia, nitrite, pH, dissolved oxygen, and water temperature while tracking fish activity and feeding behavior. The system predicts parasite/disease risk under stress conditions, guides water change and dosing operations, and warns of filter clogging and pump faults. It is suitable for ornamental fish breeding ponds and high-value koi collections."
+        },
+        {
+            "id": 29,
+            "initialDemand": "Museum Pest Trap Network and Quarantine System",
+            "detailedDemand": "A preventive conservation platform for museums that deploys smart insect traps with image recognition to identify pests such as carpet beetles and silverfish. The system maps infestation hotspots by gallery and storage room, triggers quarantine workflows for affected artifacts, and links environmental conditions to pest activity trends. It supports device maintenance and is suitable for collections management and storage facilities."
+        },
+        {
+            "id": 30,
+            "initialDemand": "Airport Jet Bridge Structural Health Monitoring System",
+            "detailedDemand": "A safety and maintenance platform for airport jet bridges that monitors joint strain, vibration, hydraulic pressure, and docking alignment accuracy. The system detects early fatigue at key hinges, warns of abnormal movement during docking, and schedules maintenance based on usage cycles rather than fixed intervals. It supports incident replay and is suitable for high-throughput airports with intensive gate operations."
+        },
+        {
+            "id": 31,
+            "initialDemand": "Stadium Natural Turf Compaction Recovery System",
+            "detailedDemand": "A turf science platform for stadium groundskeepers that measures soil compaction, moisture and root-zone oxygen at fine spatial resolution across the pitch. The system recommends aeration and topdressing schedules, controls smart irrigation by zone, and forecasts recovery time after matches based on wear intensity. It is suitable for professional football fields and multi-event stadium lawns."
+        },
+        {
+            "id": 32,
+            "initialDemand": "EV Battery Swap Station Thermal Safety System",
+            "detailedDemand": "An operations and safety platform for battery swap stations that monitors battery pack temperature, connector resistance, insulation status and cabinet airflow. The system detects abnormal heating during charging or swapping, automatically isolates risky packs, and manages lifecycle records including fast-charge exposure history. It supports remote fault diagnosis and is suitable for taxi fleets and high-frequency swap networks."
+        },
+        {
+            "id": 33,
+            "initialDemand": "Nail Salon Ventilation VOC Compliance System",
+            "detailedDemand": "An indoor air safety platform for nail salons that monitors VOCs, formaldehyde and particulate levels near workstations and customer areas. The system dynamically controls local exhaust and fresh air supply based on pollutant spikes during polish and remover use, warns of filter saturation, and generates compliance reports for occupational health checks. It is suitable for dense commercial districts and chain beauty service stores."
+        },
+        {
+            "id": 34,
+            "initialDemand": "Semiconductor Cleanroom Gowning Compliance System",
+            "detailedDemand": "A contamination control platform for semiconductor cleanrooms that tracks entry workflows, gowning sequence correctness, and particle counts at key transfer points. The system uses sensors to detect missing steps (e.g., glove change), correlates events with particle excursions, and provides root-cause analysis to reduce yield loss. It supports audit trails and is suitable for fabs and precision electronics manufacturing cleanrooms."
+        },
+        {
+            "id": 35,
+            "initialDemand": "Snowplow Salt Spread Optimization System",
+            "detailedDemand": "A winter road operations platform for small and medium municipalities that monitors pavement temperature, residual salinity, road moisture and plow vehicle location. The system calculates optimal salt application rates to avoid over-salting that damages infrastructure and ecosystems, while maintaining road safety under freezing conditions. It supports route planning and equipment maintenance reminders, and is suitable for cold-region city road maintenance teams."
+        },
+        {
+            "id": 36,
+            "initialDemand": "Desalination Membrane Fouling Prediction System",
+            "detailedDemand": "An operational efficiency platform for seawater desalination plants that monitors feed water turbidity, differential pressure across RO membrane trains, and chemical dosing parameters. The system predicts fouling trends, recommends backwash and cleaning schedules, and optimizes energy consumption by maintaining membranes in efficient operating ranges. It supports asset lifecycle management and is suitable for coastal water supply projects."
+        },
+        {
+            "id": 37,
+            "initialDemand": "Aquaponics Nutrient Balance and Pump Assurance System",
+            "detailedDemand": "An integrated control platform for aquaponics farms that monitors nitrate, ammonia, pH, water temperature, and plant bed moisture while tracking fish feeding events and biomass estimates. The system balances nutrient circulation, controls pumps and aeration to avoid fish stress and plant deficiency, and warns of filter clogging and biofilter collapse risks. It is suitable for indoor vertical aquaponics and greenhouse aquaponics operations."
+        },
+        {
+            "id": 38,
+            "initialDemand": "Landfill Methane Capture Optimization System",
+            "detailedDemand": "An environmental and revenue platform for sanitary landfills that monitors methane concentration, wellhead pressure, and gas collection pipe leakage. The system optimizes blower settings to maximize methane capture without drawing in excess oxygen that can cause subsurface fires, and provides compliance reporting for greenhouse gas reduction programs. It is suitable for landfills operating gas-to-energy projects."
+        },
+        {
+            "id": 39,
+            "initialDemand": "School Chemistry Cabinet Leak and Inventory System",
+            "detailedDemand": "A safety management platform for school laboratories that monitors VOCs and corrosive gas leakage around chemical storage cabinets, and tracks reagent inventory via smart tags. The system alarms when incompatible chemicals are stored together, reminds periodic inspection of ventilation fans, and records access logs to prevent misuse. It is suitable for middle school, high school and vocational school labs."
+        },
+        {
+            "id": 40,
+            "initialDemand": "Emergency Shelter Occupancy and Resource Allocation System",
+            "detailedDemand": "A disaster response platform for temporary emergency shelters that monitors real-time occupancy, indoor CO2/temperature, and supplies inventory such as blankets, water and medical kits through smart tags. The system predicts shortages, guides distribution and resupply routes, and supports family reunification check-in workflows with privacy protection. It is suitable for earthquake, flood and typhoon shelter operations."
+        },
+        {
+            "id": 41,
+            "initialDemand": "Vineyard Frost Protection Fan Control System",
+            "detailedDemand": "A microclimate protection platform for vineyards that monitors canopy temperature, dew point, wind speed and cold air pooling at low-lying parcels. The system automatically starts frost fans and targeted heaters when frost risk is detected, optimizes operation time to reduce fuel and electricity costs, and logs protection events for yield analysis. It is suitable for high-value grape growing regions vulnerable to spring frost."
+        },
+        {
+            "id": 42,
+            "initialDemand": "Photo Studio Lighting Heat Load Management System",
+            "detailedDemand": "An energy and comfort platform for professional photo studios that monitors lighting rig power draw, fixture temperature and indoor heat load during shoots. The system schedules lighting circuits to prevent overload, coordinates HVAC to maintain stable color temperature conditions, and warns of overheating risks for continuous lighting equipment. It is suitable for commercial studios and live-stream production spaces."
+        },
+        {
+            "id": 43,
+            "initialDemand": "Escalator Step Chain Wear Predictive Maintenance System",
+            "detailedDemand": "A predictive maintenance platform for escalators in transport hubs that monitors motor current signatures, step chain vibration, and brake response time. The system identifies early wear of step chains and rollers, reduces sudden shutdown incidents, and generates maintenance work orders based on condition rather than fixed intervals. It is suitable for metro stations, airports and large shopping centers."
+        },
+        {
+            "id": 44,
+            "initialDemand": "Marina Shore Power Metering and Fault System",
+            "detailedDemand": "An energy and safety platform for yacht marinas that monitors shore power pedestal load, leakage current, connector temperature and billing data per berth. The system detects overheating plugs and ground faults to prevent fires, supports prepaid and postpaid billing, and provides berth usage analytics for operators. It is suitable for coastal marinas and inland yacht clubs."
+        },
+        {
+            "id": 45,
+            "initialDemand": "Camel Herd Watering Point Monitoring System",
+            "detailedDemand": "A pastoralist support platform for arid-region camel herding that monitors water trough levels, pump status, and water salinity at remote watering points. The system uses low-power wide-area communication to alert herders of equipment failure or water contamination, supports route planning to reduce herd travel stress, and is suitable for desert and semi-desert grazing management."
+        },
+        {
+            "id": 46,
+            "initialDemand": "Artisanal Paper Mill Moisture and Drying Control System",
+            "detailedDemand": "A production quality platform for traditional handmade paper workshops that monitors pulp consistency, sheet moisture content, drying room temperature/humidity and airflow. The system stabilizes drying curves to prevent warping and cracking, provides batch traceability for premium paper grades, and supports equipment maintenance reminders for fans and dehumidifiers. It is suitable for cultural craft production and high-end stationery manufacturing."
+        },
+        {
+            "id": 47,
+            "initialDemand": "Hazardous Waste Drum Swelling and Heat Monitoring System",
+            "detailedDemand": "A safety supervision platform for hazardous waste temporary storage areas that monitors drum surface temperature, internal pressure indicators, and deformation/swelling via non-contact sensors. The system warns of exothermic reactions or gas buildup, enforces segregation rules for incompatible waste streams, and records inspection and transfer logs for compliance audits. It is suitable for chemical plants and industrial hazardous waste storage sites."
+        },
+        {
+            "id": 48,
+            "initialDemand": "LNG Cryogenic Tank Truck Pressure Assurance System",
+            "detailedDemand": "A transport safety platform for LNG cryogenic tank trucks that monitors tank pressure, liquid level, valve status and vibration during transit. The system detects abnormal pressure rise, warns of relief valve malfunction risk, and supports electronic handover records at loading and unloading points. It is suitable for LNG distribution logistics and emergency response management."
+        },
+        {
+            "id": 49,
+            "initialDemand": "Indoor Shooting Range Lead Dust Ventilation System",
+            "detailedDemand": "An occupational health platform for indoor shooting ranges that monitors airborne lead dust concentration, PM levels and airflow velocity in firing lanes. The system controls ventilation and filtration to keep contaminants below safety thresholds, warns of filter saturation, and generates exposure reports for staff health management. It is suitable for training ranges, police academies and commercial shooting clubs."
+        },
+        {
+            "id": 50,
+            "initialDemand": "Botanical Garden Greenhouse Pollination Scheduling System",
+            "detailedDemand": "A specialized horticulture platform for botanical gardens that monitors flowering stage, temperature/humidity and pollinator activity in greenhouse collections. The system schedules manual or assisted pollination tasks for rare species, records cross-pollination lineage for conservation breeding, and controls microclimate to improve seed set rate. It is suitable for ex-situ conservation greenhouses and rare plant propagation programs."
+        },
+        {
+            "id": 51,
+            "initialDemand": "Smart Home Control System",
+            "detailedDemand": "A comprehensive intelligent management platform for modern urban families, enabling interconnection, collaboration and remote control of household devices, and automatic triggering of scene linkage based on user habits. The system has the capabilities of dynamically grasping the operating status of devices, collecting and analyzing operating data, and proactively reminding of abnormal situations. It can realize flexible allocation of multi-user permissions, help users optimize electricity usage habits through energy consumption statistics, and support traceability queries of historical operations. It fully meets the core needs of families for convenient control, energy conservation, consumption reduction and living safety, and is suitable for the living scenarios of urban families with different house types."
+        },
+        {
+            "id": 52,
+            "initialDemand": "Smart Agricultural Irrigation System",
+            "detailedDemand": "An intelligent irrigation management platform for large-scale corn planting bases, which continuously collects environmental data such as soil moisture, rainfall, temperature, and automatically adjusts irrigation parameters in combination with the water demand characteristics of corn in different growth periods. The system can remotely control irrigation operations, formulate irrigation plans tailored to the crop growth cycle, support precise partition control of multiple plots, and has functions such as daily equipment maintenance reminders and regular calibration of sensor accuracy. It optimizes water use schemes through statistical analysis of irrigation data, ensures precise, efficient and water-saving irrigation processes, and is suitable for agricultural scenarios such as large-scale planting of field crops and refined cultivation in greenhouses."
+        },
+        {
+            "id": 53,
+            "initialDemand": "Industrial IoT Equipment Monitoring System",
+            "detailedDemand": "An intelligent monitoring and operation maintenance platform for production equipment in auto parts processing factories, which dynamically captures and visually presents the operating parameters of production equipment such as machine tools and assembly lines. The system can early warn potential faults based on data trends, build a complete operation and maintenance process management system, sort out the whole life cycle account of equipment, support the configuration of custom alarm rules, optimize maintenance strategies through statistical analysis of equipment operation data, assist in predictive maintenance of equipment, effectively reduce downtime, and improve factory production efficiency. It is suitable for the production scenarios of mechanical processing factories."
+        },
+        {
+            "id": 54,
+            "initialDemand": "Intelligent Medical Wearable Monitoring System",
+            "detailedDemand": "A health management platform for chronic disease patients undergoing home rehabilitation, which continuously captures health data such as heart rate, blood pressure, sleep, encrypts and uploads them, and promptly reminds users of abnormal situations. The system has the function of health status trend analysis, supports secure sharing of data to the doctor's end, and can trigger a help-seeking mechanism with one click in emergency situations to automatically enter the first-aid mode. It also supports wearables status monitoring and maintenance reminders, and forms personalized rehabilitation suggestions through statistical sorting of health data, providing comprehensive support for patient health monitoring, chronic disease management, postoperative rehabilitation and other scenarios."
+        },
+        {
+            "id": 55,
+            "initialDemand": "Smart Campus IoT Attendance System",
+            "detailedDemand": "A campus attendance management platform for schools, which automatically collects attendance data of students and faculty/staff and synchronizes in real time, and accurately records attendance time and location information. The system has functions such as convenient query of attendance records, multi-dimensional statistical analysis, and timely reminders of absenteeism, supports flexible setting of attendance rules according to campus management needs, and is suitable for multi-scenario use such as classroom attendance, dormitory check-in, and campus activity participation registration. It provides decision-making reference for campus management through the precipitation of attendance data, realizing intelligent and data-driven management of campus attendance, and is suitable for the daily management scenarios of primary and secondary schools."
+        },
+        {
+            "id": 56,
+            "initialDemand": "Smart Logistics Parcel Tracking System",
+            "detailedDemand": "A full-link management platform for cross-provincial parcel transportation on e-commerce platforms, which dynamically grasps the transportation status of parcels, accurately traces the transportation trajectory, and detects abnormal situations such as delays and risks of damage. The system supports electronic confirmation of parcel receipt, optimizes distribution routes and timeliness through statistical analysis of transportation data, and has the function of whole life cycle management and maintenance of label equipment. It ensures the whole process of parcels from collection to delivery is transparent, traceable, safe and controllable, and adapts to the management needs of different logistics scenarios such as ordinary express delivery, fresh cold chain logistics, and valuable goods transportation."
+        },
+        {
+            "id": 57,
+            "initialDemand": "Smart Energy Consumption Monitoring System",
+            "detailedDemand": "An energy management platform for commercial office buildings, which continuously captures and centrally monitors energy consumption data such as water, electricity and gas, and can conduct energy consumption trend analysis and abnormal consumption early warning based on historical data. The system has intelligent payment functions, supports status maintenance and calibration reminders of metering equipment, helps property optimize energy allocation schemes through regional energy consumption statistical comparison, assists office buildings in achieving energy conservation and consumption reduction goals, and provides tenants with clear energy consumption details query services. It is suitable for centralized energy use scenarios such as commercial office buildings, large residential communities and industrial parks."
+        },
+        {
+            "id": 58,
+            "initialDemand": "Intelligent Security Monitoring System",
+            "detailedDemand": "A safety management platform for chain convenience stores, realizing real-time store video monitoring, intelligent identification of abnormal behaviors, and linkage response of various sensor alarms. When doors and windows are pried, it automatically triggers camera recording and pushes alarm information to the person in charge's mobile phone. The system supports remote viewing of monitoring screens, historical video playback and classified statistics of alarm events, has functions of regular detection of security equipment status and maintenance reminders, and can flexibly set alarm rules according to store layout. It fully meets the security protection needs of scenarios such as convenience stores, community shops and industrial parks, and improves the efficiency of safety management."
+        },
+        {
+            "id": 59,
+            "initialDemand": "Smart Environmental Monitoring System",
+            "detailedDemand": "An environmental data management platform for urban parks, which continuously captures and accurately analyzes environmental data such as air quality, temperature and humidity, noise, and water quality. The system has functions such as automatic generation of monitoring reports, timely alarm of abnormal indicators, and visual query of data trends, supports sensor accuracy calibration and optimization adjustment of monitoring points, can trace the source of pollution to assist environmental governance, and provides citizens with park environmental quality query services. It is suitable for environmental management scenarios such as urban parks, industrial parks, and air quality control in indoor public places."
+        },
+        {
+            "id": 60,
+            "initialDemand": "Intelligent Retail Shelf Management System",
+            "detailedDemand": "An inventory management platform for community chain supermarkets, which dynamically grasps the inventory of shelf commodities and automatically reminds when out of stock, and accurately collects commodity sales data and associates with inventory changes. The system has functions of linked adjustment of orders and inventory, optimization of commodity display positions through passenger flow statistical analysis, supports real-time maintenance of commodity information and automatic early warning of approaching expiration dates, and provides reference for procurement decisions with store operation data statistics. It effectively improves the inventory turnover efficiency of retail stores, reduces out-of-stock and backlog situations, and is suitable for retail scenarios such as community supermarkets and small chain convenience stores."
+        },
+        {
+            "id": 61,
+            "initialDemand": "Smart Elderly Care Monitoring System",
+            "detailedDemand": "An elderly care service platform for community elderly care service centers, which dynamically grasps the health status and accurate positioning of the elderly, and quickly alarms in emergency situations such as falls and one-click help, automatically contacting family members and staff of the elderly care center. The system has functions of multi-dimensional statistics of health data, timed reminders of medication time, and nighttime safety monitoring, supports remote viewing of the elderly's status and activity trajectories, and ensures the safety of the elderly in home-based elderly care and nursing home centralized elderly care scenarios through orderly arrangement of care plans and traceability of care process records, providing convenient and efficient elderly care service support."
+        },
+        {
+            "id": 62,
+            "initialDemand": "Intelligent Water Supply Pipe Network Monitoring System",
+            "detailedDemand": "A water supply pipe network management platform for old urban areas, which dynamically monitors the pressure and flow data of water supply pipe networks, accurately locates leakage points, quickly triggers leakage alarms and pushes them to the maintenance team. The system has functions such as comprehensive query of pipe network status, dynamic pressure adjustment, and accurate analysis of leakage rate, supports regular maintenance of monitoring equipment and sensor calibration, optimizes pipe network renovation schemes through statistical analysis of pipe network operation data, ensures the stable operation of water supply pipe networks in old urban areas, reduces water resource waste, and is suitable for scenarios such as urban water supply pipe networks and industrial park water management."
+        },
+        {
+            "id": 63,
+            "initialDemand": "Intelligent Lighting Control System",
+            "detailedDemand": "A lighting management platform for office areas of office buildings, which automatically adjusts light brightness according to personnel distribution and light intensity, and supports remote control and personalized lighting scene customization. The system has functions of accurate statistics of lighting energy consumption, timely alarm of faults, and timed on/off, supports status maintenance of lighting equipment and optimized configuration of lighting strategies, helps office areas achieve energy-saving and intelligent lighting, and improves office comfort. It is suitable for scenarios such as office buildings, campus teaching buildings and industrial park office areas."
+        },
+        {
+            "id": 64,
+            "initialDemand": "Intelligent Warehouse Goods Management System",
+            "detailedDemand": "A goods management platform for e-commerce warehousing centers, which accurately locates goods positions, dynamically grasps inventory status, automatically records inbound and outbound information, and triggers replenishment reminders according to inventory status. The system has functions of inventory early warning, whole life cycle traceability of goods, and intelligent optimization of warehouse locations, supports status maintenance of warehousing equipment and flexible setting of inventory rules, optimizes operation processes through statistical analysis of warehousing efficiency data, improves the accuracy and turnover efficiency of warehousing management, reduces goods backlog and wrong delivery, and is suitable for warehousing scenarios such as e-commerce warehouses and industrial raw material warehouses."
+        },
+        {
+            "id": 65,
+            "initialDemand": "Intelligent Agricultural Machinery Operation System",
+            "detailedDemand": "An agricultural machinery management platform for large-scale wheat planting bases, which dynamically tracks the operation trajectory of agricultural machinery, accurately counts the operation area, and precisely controls core operation parameters. The system can remotely view the operation progress of agricultural machinery, formulate operation tasks according to the wheat growth cycle, support navigation route planning and real-time recording of operation data, ensure the continuity of operations through status monitoring and maintenance reminders of agricultural machinery equipment, and optimize agricultural machinery scheduling schemes through statistical analysis of operation data, realizing precise, automated and efficient agricultural operations, and is suitable for large-scale planting scenarios of field crops."
+        },
+        {
+            "id": 66,
+            "initialDemand": "Intelligent Power Grid Load Monitoring System",
+            "detailedDemand": "A power grid management platform for industrial parks, which continuously captures core power grid data, automatically analyzes load change trends and warns of overload risks. The system has functions of dynamic load adjustment, optimized power grid dispatching, and rapid fault location, supports regular maintenance of monitoring equipment and flexible setting of load thresholds, optimizes power supply schemes through statistical analysis of power grid operation data, ensures the safe and stable operation of industrial park power grids, improves power supply reliability and energy utilization efficiency, and is suitable for power control scenarios such as urban power grids and industrial park power grids."
+        },
+        {
+            "id": 67,
+            "initialDemand": "Intelligent Cold Chain Transportation Monitoring System",
+            "detailedDemand": "A cold chain transportation management platform for fresh e-commerce, which continuously monitors temperature and humidity during transportation, accurately tracks transportation trajectories, and promptly alarms in case of abnormal situations to ensure the quality and safety of fresh goods. The system supports whole-process query of cold chain transportation status, generation of temperature and humidity change curves, and reminders of arrival time, supports status maintenance of monitoring equipment and statistical analysis of cold chain data, reduces goods loss by optimizing transportation routes and temperature control strategies, and is suitable for different fresh transportation scenarios such as long-distance cold chain and same-city cold chain."
+        },
+        {
+            "id": 68,
+            "initialDemand": "Smart Park Integrated Management System",
+            "detailedDemand": "A comprehensive management platform for high-tech industrial parks, realizing collaborative linkage and dynamic status monitoring of various equipment such as park security, lighting, energy consumption and parking, and supporting service query, public facility reservation and notification reception through the park APP. The system has functions of multi-dimensional statistics of park energy consumption, rapid response to security alarms, and intelligent optimization of resource allocation, supports unified management of IoT devices and in-depth analysis of operation data, can meet the needs of internal enterprise energy consumption management and convenient application for park services, realizes intelligent and efficient operation of the park, and is suitable for scenarios such as high-tech industrial parks, science and technology parks and commercial parks."
+        },
+        {
+            "id": 69,
+            "initialDemand": "Whole House Healthy Air Coordination System",
+            "detailedDemand": "An indoor environment management platform for urban high-end apartments, which continuously monitors formaldehyde, CO2, PM2.5 and extreme temperature and humidity through various sensors, realizing intelligent coordinated operation of household appliances such as fresh air systems, air conditioners and humidifiers. The system can automatically adjust the operation priority of these devices according to the indoor and outdoor air pressure difference and air quality index; it can intelligently monitor the service life of filters, predict equipment operation faults in advance, and allocate costs according to the actual energy consumption of each room. It supports precise customization of exclusive environment adjustment schemes according to the respiratory health needs of family members and their identities/health conditions, adapting to the healthy living needs of different house types."
+        },
+        {
+            "id": 70,
+            "initialDemand": "Smart Hotel Guest Room Energy Efficiency Sensing System",
+            "detailedDemand": "A digital management platform for chain hotels, realizing intelligent linkage between guest room occupancy status and energy consumption, and automatically adjusting guest rooms to different states such as \"pre-cooling/pre-heating, energy-saving, standby\" according to hotel reservation data and real-time feedback from sensors. The system can count energy consumption data of various electrical equipment in guest rooms, automatically cut off power when sockets are overloaded, and automatically report equipment faults for repair; it generates energy-saving reports for the entire building by analyzing electricity consumption data, solving the problems of high energy consumption in vacant rooms and slow service response, and is suitable for the operation scenarios of business and leisure hotels."
+        },
+        {
+            "id": 71,
+            "initialDemand": "Chronic Disease Home Remote Monitoring System",
+            "detailedDemand": "A digital rehabilitation platform for patients with chronic diseases such as hypertension and diabetes, which continuously collects and encrypts the transmission of physical sign data, establishing a dynamic correlation between physiological parameters and clinical intervention paths. The system has functions of indicator fluctuation trend modeling, automatic risk level delineation and penetrating alarm of abnormal indicators, supports doctors to remotely view audit trails and issue health suggestions, and also has wearables detachment monitoring and efficiency maintenance reminders, adapting to home-based chronic disease management and postoperative health tracking scenarios."
+        },
+        {
+            "id": 72,
+            "initialDemand": "Non-Contact Behavioral Monitoring System for Elderly Living Alone",
+            "detailedDemand": "A safety audit platform for community-dwelling elderly living alone, which dynamically captures indoor behavioral characteristics through non-contact sensing technology to monitor whether their daily activities such as eating, washing and sleeping are normal. The system has capabilities of behavior pattern deviation discrimination, automatic logical judgment of accidental falls, and one-click triggering of emergency rescue, and can realize multi-terminal real-time synchronous alarm information of risks with family members/elderly care centers without interfering with the privacy of the elderly. It assists in formulating care plans through statistics of life trajectories, adapting to home-based elderly care and community rehabilitation scenarios."
+        },
+        {
+            "id": 73,
+            "initialDemand": "Predictive Operation and Maintenance System for Rotating Equipment",
+            "detailedDemand": "A mechanical monitoring platform for industrial pump rooms or workshops, which real-timely grasps the health status of core equipment by monitoring equipment vibration, bearing temperature and lubrication current. The system can predict the remaining service life of key components through intelligent algorithms, automatically match maintenance plans and spare parts inventory, support tracing the cause of faults and recording maintenance processes; it helps factories reduce downtime by analyzing the comprehensive operation efficiency of equipment, adapting to heavy industry and precision processing production scenarios."
+        },
+        {
+            "id": 74,
+            "initialDemand": "Long-Distance Pipeline Operation Risk Management System",
+            "detailedDemand": "A safety control platform for cross-regional long-distance oil and gas pipelines, which continuously collects pressure changes, fluid flow rates and pipeline vibration signals of the entire line, identifying hidden leaks and third-party damage behaviors through data analysis. The system can restore the overall state of the pipeline through digital models, automatically warn of illegal excavation behaviors and trigger UAV inspection tasks, and has functions of self-healing communication of monitoring nodes and sensor accuracy offset compensation, ensuring the intrinsic safety of the energy artery, and adapting to pipeline operation scenarios in complex geological environments."
+        },
+        {
+            "id": 75,
+            "initialDemand": "Optical Storage and Charging Integrated Intelligent Microgrid System",
+            "detailedDemand": "A distributed energy management platform for parks or families, which intelligently coordinates the energy distribution among photovoltaic panels, energy storage batteries and charging piles. The system can automatically decide the optimal ratio of \"storage, grid connection, self-use\" based on real-time grid electricity prices and weather forecasts, monitor battery health status, analyze photovoltaic panel occlusion loss, warn of grid-connected safety risks, accurately analyze energy consumption data, optimize energy use strategies to reduce electricity costs, and adapt to green building and low-carbon park scenarios."
+        },
+        {
+            "id": 76,
+            "initialDemand": "Mobile Asset Leasing Working Condition Audit System",
+            "detailedDemand": "An asset management platform for expensive leased equipment such as excavators and generators, which accurately records the actual operation load, idle time and usage location of equipment through hardware devices. The system can remotely limit the operating speed of arrears equipment, automatically alarm when operating beyond boundaries, and verify the authenticity of operation data; it can calculate equipment depreciation and maintenance cycles based on actual working intensity rather than calendar time, solving the problems of \"difficult control and chaotic billing\" of leased assets, and adapting to mechanical leasing and financial installment asset management scenarios."
+        },
+        {
+            "id": 77,
+            "initialDemand": "Grid-Based Smart Street Lamp Energy-Saving System",
+            "detailedDemand": "A lighting dispatch platform for urban public spaces, which automatically switches lighting levels according to ambient natural illumination, traffic density and administrative time limits. The system has functions of single-lamp level energy consumption audit, logical discrimination of cable faults and active alarm of electric leakage hazards, supports multi-state lighting modes, reduces blind manual inspections through equipment self-inspection, helps municipal administrations achieve carbon reduction goals, and is suitable for urban arterial roads and intelligent community scenarios."
+        },
+        {
+            "id": 78,
+            "initialDemand": "Smart Municipal Manhole Cover Safety Monitoring System",
+            "detailedDemand": "An intelligent management platform for urban road manhole cover assets, which continuously captures the physical state of manhole covers through multi-dimensional sensors such as tilt, displacement and water immersion, and immediately accurately locates and triggers alarms upon identifying abnormalities. The system can record the whole life cycle information of manhole covers, automatically plan maintenance routes, track the progress of maintenance dispatching; it can monitor the battery status and signal normality of sensors, optimize maintenance frequency by analyzing historical alarm data, prevent manhole falling accidents and manhole cover loss, and is suitable for monitoring scenarios of drainage facilities on urban arterial roads and old residential areas."
+        },
+        {
+            "id": 79,
+            "initialDemand": "Commercial Electrical Fire Hazard Monitoring System",
+            "detailedDemand": "A fire safety audit platform for chain stores or shopping malls, which continuously monitors leakage current of power distribution cabinets, cable temperature and pressure status of fire extinguishing systems. The system can realize overload risk early warning, multi-level notification of fire hazards, has the function of evaluating the health status of fire-fighting equipment, and supports automatic triggering of emergency lighting and sprinkler linkage after confirming fire conditions. It helps property optimize inspection frequency through safety big data statistics, adapting to safety protection scenarios of commercial buildings and crowded places."
+        },
+        {
+            "id": 80,
+            "initialDemand": "High-Value Cold Chain Material Quality Traceability System",
+            "detailedDemand": "A full-link monitoring platform for biomedicine or high-end fresh products, which continuously monitors whether environmental indicators are normal and goods are intact during container transportation. The system can count the duration of environmental abnormalities, automatically report illegal door opening behaviors, generate electronic documents for arrival compliance; it supports offline storage data supplementary transmission of equipment and synchronous transportation trajectories in multiple ways, optimizes packaging and transportation schemes by analyzing quality loss rules, and is suitable for cross-border logistics and fresh cold chain distribution scenarios."
+        },
+        {
+            "id": 81,
+            "initialDemand": "Warehousing AGV Cluster Collaboration and Scheduling System",
+            "detailedDemand": "An automated operation platform for e-commerce sorting centers, which enables multiple mobile robots to avoid path conflicts and improve operation efficiency through spatial positioning and task planning. The system can dynamically monitor the usage of warehouse locations, real-timely verify the consistency between physical location and system inventory, and robots automatically manage charging status; it supports rapid interception of abnormal parcels and reproduction of operation trajectories, improving warehouse throughput efficiency, and is suitable for automated logistics and intelligent factory warehousing scenarios."
+        },
+        {
+            "id": 82,
+            "initialDemand": "Smart Campus Security Linkage System",
+            "detailedDemand": "A campus safety management platform for primary and secondary schools and universities, integrating video surveillance, access control, perimeter protection, emergency broadcasting and other equipment to achieve linkage. The system can automatically identify abnormal situations such as campus wall climbing, crowd gathering at school gates, and students not returning to dormitories on time and issue alarms; it can automatically adjust access control permissions according to campus schedules, and trigger campus emergency linkage response with one click in emergency situations; it supports counting the online status of campus security equipment, analyzing high-incidence areas of abnormal events, optimizing security patrol routes, and adapting to the safety management scenarios of various campuses."
+        },
+        {
+            "id": 83,
+            "initialDemand": "Precision Water and Fertilizer Integrated Control System",
+            "detailedDemand": "A nutrition management platform for modern greenhouses, which real-timely captures soil matrix nutrients and photosynthesis efficiency, and automatically proportions the feeding amount of fertilizers and water. The system has functions of logical identification of crop growth stages, alarm of visual characteristics of diseases and insect pests, and online calibration of equipment spraying accuracy, supports automatic correction of control logic according to weather forecasts, ensures the standardization level of agricultural product output, and is suitable for refined agriculture and breeding research scenarios."
+        },
+        {
+            "id": 84,
+            "initialDemand": "Large-Scale Breeding Individual Health Monitoring System",
+            "detailedDemand": "A livestock asset management platform for industrial breeding farms, which monitors individual movement steps, core body temperature and feeding frequency through intelligent terminals. The system has functions of estrus window prediction, early behavioral logical identification of diseases, and virtual fence control, supports automatic scheduling of epidemic prevention nodes and dynamic evaluation of pig/cattle asset value. It optimizes breeding schemes by analyzing breeding data, adapting to large-scale animal husbandry production scenarios."
+        },
+        {
+            "id": 85,
+            "initialDemand": "Laboratory Hazardous Chemicals Whole Life Cycle System",
+            "detailedDemand": "A reagent management platform for scientific research institutes, realizing digital management of reagents from warehousing, collection, use to disposal. The system can control the opening of reagent cabinets according to personnel permissions, automatically exhaust air when hazardous gases leak, and monitor interference factors in the scientific research environment; it can warn of reagent expiration dates, retain experimental compliance records, ensure the safety of scientific research assets, and is suitable for pharmaceutical research and chemical experiment scenarios."
+        },
+        {
+            "id": 86,
+            "initialDemand": "Underground Enclosed Space Safety Joint Control System",
+            "detailedDemand": "A comprehensive monitoring platform for mine or tunnel construction, which monitors the relative distance between personnel and heavy machinery through a spatial positioning network, and real-timely monitors environmental risk data such as gas, dust and water level in underground enclosed spaces. The system can set multi-level alarms by region, automatically network after disasters to assist rescue, and dynamically plan escape routes; it can record equipment inspection and operation safety conditions, ensure the safety of underground operations, and is suitable for mine mining and underground infrastructure construction scenarios."
+        },
+        {
+            "id": 87,
+            "initialDemand": "Comprehensive Healthy Air Coordination System",
+            "detailedDemand": "This system is tailor-made for modern families pursuing high-quality life, integrating high-precision laser dust sensors and VOCs monitoring modules, capable of perceiving changes in indoor PM2.5, formaldehyde and carbon dioxide concentrations in real time around the clock. Once abnormal air quality is detected, the system will make intelligent decisions through an edge computing gateway, automatically link and turn on air purifiers or fresh air ventilation equipment for targeted adjustment, and push environmental reports to users through a mobile App at the same time, ensuring that the living space always maintains a fresh and healthy state like a forest oxygen bar."
+        },
+        {
+            "id": 88,
+            "initialDemand": "Urban Smart Garbage Classification Management System",
+            "detailedDemand": "For urban environmental sanitation management departments, the system endows trash cans with the functions of automatically identifying the category of thrown objects and weighing through image recognition and weight sensing technology. When the overflow degree of the trash can reaches the preset threshold, the system will automatically plan the optimal garbage truck collection route and dispatch vehicles, and record residents' classification and delivery points through the user-side App, effectively solving the problem of odor pollution caused by trash can overflow, and greatly improving the intelligent level and recycling efficiency of urban garbage classification and treatment."
+        },
+        {
+            "id": 89,
+            "initialDemand": "Geological Disaster Intelligent Early Warning System",
+            "detailedDemand": "Serving mountainous area natural resource monitoring departments, it conducts 24-hour uninterrupted monitoring of landslide bodies and debris flow-prone areas by deploying deep inclinometers, crack gauges and Beidou high-precision positioning terminals. The system uses big data trend analysis to capture tiny geological displacements imperceptible to the naked eye, and issues emergency evacuation warnings in advance through radio and short messages before the critical point of geological disasters occurs, maximizing the protection of the lives and property of people in threatened areas."
+        },
+        {
+            "id": 90,
+            "initialDemand": "Intelligent Temperature and Humidity Control System for Intangible Cultural Heritage Lacquer Art Workshop",
+            "detailedDemand": "An environmental management platform for intangible cultural heritage lacquer art inheritance workshops, which continuously collects key data such as temperature and humidity, air dust content, and paint volatile matter concentration in the workshop, and automatically adjusts temperature and humidity equipment in combination with the environmental requirements of different processes of lacquer art coating. The system can remotely view the environmental status of the workshop, formulate environmental control plans tailored to the lacquer art production cycle, support daily calibration of equipment and maintenance reminders, optimize the lacquer art production environment scheme through statistical analysis of environmental data, ensure the color and quality of lacquer art works, and is suitable for niche intangible cultural heritage production scenarios such as intangible cultural heritage lacquer art workshops and traditional wood carving and lacquering workshops."
+        },
+        {
+            "id": 91,
+            "initialDemand": "Intelligent Positioning and Monitoring System for Yaks in Plateau Pastoral Areas",
+            "detailedDemand": "A livestock management platform for Qinghai-Tibet Plateau pastoral areas, which dynamically captures data such as yak position, body temperature and activity through Beidou positioning terminals and physical sign sensors, and promptly alarms when yaks break away from the herd or have abnormal physical signs. The system has functions of tracing the group trajectory of yaks, setting electronic fences in pastoral areas, and counting forage consumption, supports monitoring the power of positioning equipment and maintenance reminders, optimizes grazing routes and supplementary feeding schemes through statistical analysis of yak activity data, ensures the safety of yak breeding in plateau pastoral areas, and is suitable for niche breeding scenarios such as Qinghai-Tibet Plateau and Inner Mongolia grassland plateau pastoral areas."
+        },
+        {
+            "id": 92,
+            "initialDemand": "Intelligent Microenvironment Regulation System for Ancient Book Restoration Room",
+            "detailedDemand": "An environmental management platform for ancient book restoration rooms of cultural and museum institutions, which continuously collects microenvironment data such as temperature and humidity, light intensity, and harmful gas concentration in the restoration room, and automatically adjusts constant humidity and oxygen equipment in combination with the material characteristics of ancient books. The system has functions of microenvironment data trend analysis, accurate alarm of abnormal indicators, and monitoring of equipment operation status, supports regular calibration of sensors and customization of restoration room environment schemes, provides reference for optimizing ancient book restoration processes through environmental data statistics, and is suitable for niche cultural and museum protection scenarios such as ancient book restoration rooms and cultural relic rubbing studios."
+        },
+        {
+            "id": 93,
+            "initialDemand": "Intelligent Control System for UAV Plant Protection Operations",
+            "detailedDemand": "A plant protection management platform for characteristic forest and fruit planting bases, which dynamically tracks the operation trajectory, pesticide dosage and pest and disease distribution data in the operation area of plant protection UAVs, and automatically adjusts plant protection parameters in combination with the growth stages of forest and fruit trees. The system can remotely control UAV operations, formulate precise plant protection operation plans, support monitoring of UAV battery status and fault early warning, optimize pesticide dosage and operation routes through statistical analysis of plant protection data, improve the efficiency of forest and fruit plant protection, and is suitable for niche plant protection scenarios such as mountainous characteristic forest and fruit trees and precious medicinal material planting."
+        },
+        {
+            "id": 94,
+            "initialDemand": "Intelligent Monitoring System for Cold Chain Vaccine Terminal Distribution",
+            "detailedDemand": "A vaccine distribution management platform for remote rural health clinics, which continuously monitors temperature and humidity, positioning information and box door switch status in vaccine distribution boxes, and promptly alarms when temperature and humidity exceed standards or the box body moves abnormally. The system has functions of vaccine distribution trajectory tracing, encrypted upload of distribution data, and power reminders of monitoring equipment, optimizes the vaccine terminal distribution scheme through statistical analysis of distribution data, ensures the safety of vaccine distribution in remote areas, and is suitable for niche vaccine distribution scenarios such as remote rural areas and plateau pastoral areas."
+        },
+        {
+            "id": 95,
+            "initialDemand": "Intelligent Inspection Robot Control System for Underground Pipe Gallery",
+            "detailedDemand": "An operation and maintenance management platform for urban branch underground pipe galleries, which dynamically collects data such as gas concentration, pipeline corrosion status and water accumulation depth in the pipe gallery through sensors carried by inspection robots, and automatically plans inspection routes and avoids obstacles. The system has functions of automatic robot fault alarm, visual presentation of inspection data and hierarchical early warning of pipe gallery hidden dangers, supports monitoring of robot charging status and formulation of maintenance plans, optimizes pipe gallery operation and maintenance strategies through statistical analysis of inspection data, and is suitable for niche pipe gallery operation and maintenance scenarios such as urban branch underground pipe galleries and industrial park special pipe galleries."
+        },
+        {
+            "id": 96,
+            "initialDemand": "Intelligent Safety Monitoring System for Climbing Gyms",
+            "detailedDemand": "A safety management platform for professional climbing gyms, which real-timely collects data such as climbing wall load-bearing status, protection rope tension, climber's heart rate and position, and immediately alarms when load-bearing overload, abnormal protection rope, or abnormal climber's physical signs occur. The system has functions of regular detection of climbing equipment status, adaptive adjustment of climbing route difficulty, and statistical analysis of safety incidents, supports remote viewing of the venue safety status, optimizes the climbing gym protection scheme through safety data statistics, and is suitable for niche climbing scenarios such as professional climbing gyms and outdoor expansion climbing bases."
+        },
+        {
+            "id": 97,
+            "initialDemand": "Intelligent Environmental Control System for Fermentation in Traditional Winemaking Workshops",
+            "detailedDemand": "An environmental management platform for traditional winemaking workshops, which continuously collects data such as temperature and humidity, fermented grains acidity, and flora activity in the fermentation workshop, and automatically adjusts environmental equipment in combination with the environmental requirements of fermentation processes of different wine types. The system has functions of tracing fermentation process data, alarming abnormal fermentation status, and monitoring equipment operation status, supports custom configuration of fermentation parameters and maintenance reminders of workshop equipment, optimizes winemaking processes through statistical analysis of fermentation data, and is suitable for winemaking workshop scenarios such as traditional Baijiu and niche fruit wine brewing."
+        },
+        {
+            "id": 98,
+            "initialDemand": "Intelligent Energy Efficiency Management System for E-Sports Hall Equipment",
+            "detailedDemand": "An equipment management platform for professional e-sports halls, which real-timely collects data such as operating power consumption of e-sports equipment, machine room temperature and humidity, peripheral status, and player usage duration, and automatically adjusts operating parameters according to equipment load. The system has functions of early warning of equipment faults, accurate statistics of energy consumption, and reminders of peripheral loss, supports zoned management of energy efficiency in e-sports areas, optimizes equipment operation schemes through statistical analysis of energy consumption data, reduces the operating costs of e-sports halls, and is suitable for niche e-sports scenarios such as professional e-sports halls and high-end cyber cafe e-sports areas."
+        },
+        {
+            "id": 99,
+            "initialDemand": "Intelligent Monitoring System for Harmless Disposal of Pet Funeral",
+            "detailedDemand": "An environmental management platform for pet funeral institutions, which continuously monitors operating parameters of harmless disposal equipment, exhaust gas emission concentration, temperature and humidity of disposal chambers, and promptly alarms when parameters exceed standards or equipment fails. The system has functions of whole-process traceability of disposal processes, compliance reporting of environmental data, and equipment maintenance reminders, supports custom configuration of disposal schemes, optimizes harmless disposal processes through statistical analysis of disposal data, and is suitable for niche environmental protection scenarios such as pet funeral institutions and animal harmless disposal stations."
+        },
+        {
+            "id": 100,
+            "initialDemand": "Intelligent Regulation System for Micro-Hydropower Stations",
+            "detailedDemand": "An operation and maintenance management platform for mountainous micro-hydropower stations, which continuously collects data such as water flow rate, power generation, unit vibration and water level of hydropower stations, and automatically adjusts unit operating parameters in combination with hydrological forecasts. The system has functions of early warning of unit faults, statistics of power generation efficiency, and formulation of equipment maintenance plans, supports remote control of unit start and stop, optimizes power generation strategies through statistical analysis of operation data, and is suitable for niche power generation scenarios such as mountainous micro-hydropower stations and stream micro-hydropower stations."
+        },
+        {
+            "id": 101,
+            "initialDemand": "IoT Intelligent Guide System for Blind Travel",
+            "detailedDemand": "A travel assistance platform for visually impaired people, which real-timely perceives surrounding obstacles, road conditions and public facility locations through ultrasonic sensors, Beidou positioning and environment recognition modules carried by wearable devices, and guides blind people to travel through voice prompts. The system has functions of automatic alarm of dangerous scenarios, travel trajectory recording, and one-click triggering of emergency help, supports monitoring of equipment power and maintenance reminders, and is suitable for niche guide scenarios such as urban blind road travel and suburban rural blind travel."
+        },
+        {
+            "id": 102,
+            "initialDemand": "Intelligent Water and Electricity Control System for RV Campsites",
+            "detailedDemand": "An operation management platform for niche RV campsites, which real-timely collects data such as water and electricity consumption of each campsite, charging pile status, and water supply and drainage pressure, and automatically allocates water and electricity resources according to RV occupancy. The system has functions of automatic accounting of water and electricity fees, equipment fault alarm, and statistics of campsite usage status, supports remote control of water and electricity valves, optimizes resource allocation through statistical analysis of campsite data, and is suitable for niche RV campsite scenarios such as rural RV campsites and scenic spot RV campsites."
+        },
+        {
+            "id": 103,
+            "initialDemand": "Intelligent Health Monitoring System for Racing Pigeons in Pigeon Farms",
+            "detailedDemand": "A management platform for professional racing pigeon breeding farms, which collects data such as racing pigeon heart rate, flight duration, food intake, and pigeon house temperature and humidity through wearable foot rings, and automatically identifies abnormal health and training fatigue status of racing pigeons. The system has functions of tracing racing pigeon training trajectories, early warning of diseases, and environmental control of pigeon houses, supports monitoring of foot ring equipment power and maintenance, optimizes racing pigeon training and feeding schemes through statistical analysis of breeding data, and is suitable for niche pigeon breeding scenarios such as racing pigeon breeding and carrier pigeon cultivation."
+        },
+        {
+            "id": 104,
+            "initialDemand": "Intelligent Temperature Control System for Kilns in Ceramic Workshops",
+            "detailedDemand": "A kiln management platform for handcrafted ceramic workshops, which continuously collects data such as temperature curves, kiln pressure and oxygen content in kilns, and automatically adjusts heating, heat preservation and cooling parameters in combination with the requirements of ceramic firing processes. The system has functions of tracing firing process data, early warning of kiln faults, and statistical analysis of energy consumption, supports custom storage of firing schemes, optimizes the yield rate of ceramic products through statistical analysis of firing data, and is suitable for niche ceramic creation scenarios such as handcrafted ceramic workshops and small ceramic art studios."
+        },
+        {
+            "id": 105,
+            "initialDemand": "Intelligent Anti-Mold Monitoring System for Chinese Medicinal Materials Storage",
+            "detailedDemand": "A management platform for the storage of precious Chinese medicinal materials, which continuously collects data such as temperature and humidity, air moisture content, and mold spore concentration in the storage environment, and automatically starts dehumidification and ventilation equipment in combination with the characteristics of different medicinal materials. The system has functions of early warning of mildew risks, tracing of medicinal material storage cycles, and maintenance reminders of storage equipment, supports zoned environmental control of storage, optimizes storage schemes through statistical analysis of environmental data, and is suitable for niche medicinal material storage scenarios such as precious Chinese medicinal materials and small herbal medicine storage."
+        },
+        {
+            "id": 106,
+            "initialDemand": "Intelligent Safety Monitoring System for Outdoor Expansion Bases",
+            "detailedDemand": "A safety management platform for niche outdoor expansion bases, which real-timely collects data such as expansion facility load-bearing, rope tension, site wind speed, and participant heart rate, and immediately alarms when facility overload, abnormal weather, or abnormal participant physical signs occur. The system has functions of risk assessment of expansion projects, formulation of facility maintenance plans, and statistical analysis of safety incidents, supports remote viewing of base safety status, optimizes expansion project schemes through safety data statistics, and is suitable for niche expansion scenarios such as mountain outdoor expansion bases and jungle expansion camps."
+        },
+        {
+            "id": 107,
+            "initialDemand": "Intelligent Monitoring System for Ship Ballast Water",
+            "detailedDemand": "A ballast water management platform for small ocean-going fishing vessels, which continuously collects data such as ballast water tank water level, salinity, oxygen content, and exotic organism monitoring, and automatically adjusts treatment equipment in combination with international ballast water discharge standards. The system has functions of compliance recording of ballast water discharge, early warning of equipment faults, and statistics of treatment data, supports remote monitoring of ballast water tanks, optimizes ballast water treatment schemes through statistical analysis of treatment data, and is suitable for niche offshore operation ship scenarios such as small ocean-going fishing vessels."
+        },
+        {
+            "id": 108,
+            "initialDemand": "Consumables Management and Disinfection Intelligent Monitoring System for Tattoo Parlors",
+            "detailedDemand": "An operation management platform for professional tattoo parlors, which real-timely collects data such as tattoo consumables inventory, disinfection equipment operating parameters, and workbench cleanliness, and automatically alarms when consumables are insufficient or disinfection is not up to standard. The system has functions of consumables traceability management, disinfection process recording, and equipment maintenance reminders, supports custom setting of disinfection parameters, optimizes consumables procurement and disinfection schemes through statistical analysis of operation data, and is suitable for niche tattoo studio scenarios such as professional tattoo parlors and small tattoo studios."
+        },
+        {
+            "id": 109,
+            "initialDemand": "Intelligent Monitoring System for Diving Club Equipment",
+            "detailedDemand": "An equipment management platform for niche diving clubs, which continuously collects data such as diving cylinder pressure, regulator status, diving suit tightness, and equipment disinfection status, and immediately alarms when equipment has potential safety hazards. The system has functions of tracing equipment usage duration, formulating maintenance plans, and recording diver equipment adaptation, supports equipment inventory management, optimizes maintenance and procurement schemes through statistical analysis of equipment data, and is suitable for niche diving scenarios such as recreational diving clubs and professional technical diving bases."
+        },
+        {
+            "id": 110,
+            "initialDemand": "Intelligent Operation and Maintenance Monitoring System for Small Wind Farms",
+            "detailedDemand": "An operation and maintenance management platform serving small wind farms in mountainous areas, which real-timely collects data such as wind turbine blade vibration, wind speed, power generation, and gearbox oil temperature, and automatically adjusts the operating angle of wind turbines in combination with wind speed prediction. The system has functions of early warning of wind turbine faults, automatic dispatching of operation and maintenance work orders, and statistics of power generation efficiency, supports remote monitoring of wind turbine status, optimizes operation and maintenance strategies through statistical analysis of operation data, and is suitable for niche wind power scenarios such as small mountain wind farms and distributed wind farms."
+        },
+        {
+            "id": 111,
+            "initialDemand": "Intelligent Environmental Control System for Bonsai Cultivation",
+            "detailedDemand": "A management platform for precious bonsai cultivation bases that continuously collects data such as temperature and humidity, soil pH value, light duration, and water content of the bonsai growth environment, and automatically adjusts irrigation and light supplement equipment in combination with the growth characteristics of different bonsai varieties. The system has functions of bonsai growth status analysis, pest and disease early warning, and customization of cultivation plans, supports sensor accuracy calibration and equipment maintenance reminders, optimizes bonsai maintenance plans through statistical analysis of cultivation data, and is suitable for scenarios such as precious bonsai cultivation and niche bonsai creation bases."
+        },
+        {
+            "id": 112,
+            "initialDemand": "Intelligent Environmental Monitoring System for Intangible Cultural Heritage Bamboo Weaving Workshop",
+            "detailedDemand": "An environmental management platform for intangible cultural heritage bamboo weaving workshops that continuously collects data such as temperature and humidity, bamboo moisture content, and air circulation in the workshop, and automatically adjusts dehumidification and ventilation equipment in accordance with the requirements of bamboo weaving processes. The system has functions of bamboo storage status monitoring, weaving environment optimization suggestions, and equipment maintenance reminders, supports presetting of environmental parameters for different bamboo weaving processes, improves the toughness and aesthetics of bamboo weaving products through statistical analysis of environmental data, and is suitable for niche intangible cultural heritage scenarios such as intangible cultural heritage bamboo weaving workshops and traditional bamboo art workshops."
+        },
+        {
+            "id": 113,
+            "initialDemand": "Intelligent Control System for Desert Photovoltaic Water Lifting and Irrigation",
+            "detailedDemand": "An irrigation management platform for niche cash crop planting in desert fringes, which collects data such as solar irradiance intensity, water pump operation parameters, soil moisture content, and crop water demand through photovoltaic water lifting equipment, and automatically adjusts the water lifting irrigation volume and frequency. The system has functions of photovoltaic energy efficiency analysis, water pump fault early warning, and irrigation water volume statistics, supports remote control of water lifting equipment, optimizes photovoltaic water lifting schemes through statistical analysis of irrigation data, and is suitable for niche irrigation scenarios such as wolfberry and sea buckthorn planting in desert fringes."
+        },
+        {
+            "id": 114,
+            "initialDemand": "Intelligent Monitoring System for Equestrian Training Grounds",
+            "detailedDemand": "A training ground management platform serving professional equestrian clubs that real-timely collects data such as horse heart rate, stride frequency, venue flatness, fence status, and temperature and humidity of the training ground, and promptly alarms in case of abnormal horse physical signs or damaged venue facilities. The system has functions of horse training trajectory tracing, venue maintenance plan formulation, and statistical analysis of training data, supports custom configuration of training schemes, optimizes horse training plans through training data, and is suitable for scenarios such as professional equestrian training grounds and niche equestrian teaching bases."
+        },
+        {
+            "id": 115,
+            "initialDemand": "Intelligent Environmental Monitoring System for Archaeological Sites",
+            "detailedDemand": "An environmental management platform for field archaeological excavation sites that continuously collects data such as temperature and humidity, soil moisture content, wind speed, and light intensity in the excavation area, and automatically adjusts sunshade, windproof, and moisturizing equipment in accordance with cultural relic protection requirements. The system has functions of real-time recording of environmental data, early warning of cultural relic protection risks, and monitoring of equipment operation status, supports flexible layout and accuracy calibration of sensor points, optimizes cultural relic protection schemes at archaeological sites through statistical analysis of environmental data, and is suitable for scenarios such as field archaeological excavation and niche site rescue excavation."
+        },
+        {
+            "id": 116,
+            "initialDemand": "Smart Construction Site Personnel Safety Management System",
+            "detailedDemand": "A safety supervision platform for large-scale construction sites that real-timely collects workers' geographic location, vital signs, and fall status through intelligent safety helmets. The system supports setting up no-entry zones with electronic fences, and immediately triggers sound and light alarms and notifies managers once unauthorized personnel enter dangerous areas or workers fail to wear safety helmets. The system can count working hour data and analyze personnel distribution heat maps, helping construction sites achieve refined labor management and intrinsic safety, and is suitable for construction scenarios such as bridges, tunnels, and high-rise buildings."
+        },
+        {
+            "id": 117,
+            "initialDemand": "Intelligent Photovoltaic Array Operation and Maintenance Management System",
+            "detailedDemand": "An asset operation and maintenance platform for centralized photovoltaic power stations that continuously captures inverter voltage, current data, and module surface temperature. The system uses infrared sensing and data comparison technology to identify the \"hot spot effect\" and panel occlusion, and automatically locates faulty string groups. It supports scheduled startup of cleaning robots, optimizes the operation and maintenance cycle through comparative analysis of power generation efficiency, improves the energy output ratio of photovoltaic assets, and is suitable for desert, mountainous, and rooftop distributed photovoltaic scenarios."
+        },
+        {
+            "id": 118,
+            "initialDemand": "Smart Fire Hydrant Monitoring System",
+            "detailedDemand": "A management platform for urban municipal fire-fighting facilities that installs intelligent monitoring terminals on outdoor fire hydrants to real-timely capture water discharge status, pipe network pressure, and tilt displacement data. The system can automatically identify abnormalities such as illegal water theft, collision damage, and insufficient water pressure, and accurately locate damaged facilities. By regularly self-checking the battery status of equipment, it reduces the cost of manual inspection and ensures that fire-fighting water sources are available in case of fire, suitable for urban arterial roads, industrial parks, and old communities."
+        },
+        {
+            "id": 119,
+            "initialDemand": "Transmission Line Ice Coating and Galloping Monitoring System",
+            "detailedDemand": "A disaster prevention monitoring platform for outdoor high-voltage power grids that uses tension sensors and inclination sensors to real-timely monitor conductor ice coating thickness, wind deflection angle, and galloping amplitude. Combined with micro-meteorological station data, the system automatically evaluates the mechanical strength risk of lines under blizzard and freezing rain weather, and triggers de-icing devices or early warning notifications. By analyzing the operating posture of lines, it prevents tower collapse and line breakage accidents, suitable for alpine mountainous areas and cross-regional UHV transmission line scenarios."
+        },
+        {
+            "id": 120,
+            "initialDemand": "Intelligent Gas Station Oil Tank Safety Audit System",
+            "detailedDemand": "A safety monitoring platform for petroleum retail outlets that dynamically grasps oil tank inventory and oil quality through liquid level gauges and leak detection sensors. The system has functions of automatic anti-overflow alarm for high liquid level and real-time monitoring of leakage, supports automatic verification of purchase-sales-inventory data to prevent oil loss. It analyzes oil loss rate through historical data, ensures the safety and compliance of the energy sales process, and is suitable for urban center and highway gas stations."
+        },
+        {
+            "id": 121,
+            "initialDemand": "Smart Computer Room Environment and Power Monitoring System",
+            "detailedDemand": "A comprehensive operation platform for data centers that continuously monitors server rack temperature and humidity, UPS current and voltage, water leakage status, and precision air conditioner operation parameters. The system supports 3D visual display of equipment positions, and triggers emergency alarms through multiple channels in case of power outage or overheating. It analyzes the computer room's PUE (Power Usage Effectiveness) value through energy consumption data statistics, helping build green computer rooms, and is suitable for enterprise and institutional data rooms and operator data centers."
+        },
+        {
+            "id": 122,
+            "initialDemand": "Intelligent Garbage Compression and Transfer Station Monitoring System",
+            "detailedDemand": "A management platform serving the sanitation transfer link that real-timely monitors compressor pressure, displacement, hydraulic oil temperature, and collection pool water level. The system supports queue reservation for garbage transfer vehicles, and automatically triggers compression commands when garbage bins are full. It optimizes transfer frequency through statistical analysis of operation data, reduces secondary pollution caused by garbage retention, and is suitable for street transfer stations and large community garbage collection points."
+        },
+        {
+            "id": 123,
+            "initialDemand": "Intelligent Fishery Aquaculture Control System",
+            "detailedDemand": "A refined management platform for large-scale aquaculture farms that continuously monitors dissolved oxygen, pH value, ammonia nitrogen concentration and water temperature of ponds. The system can automatically control the start and stop of aerators according to dissolved oxygen indicators, and support the timing and quantitative management of automatic feeders. Through the analysis of historical water quality curves, it predicts the risk of fish diseases, ensures the yield and quality of aquatic products, and is suitable for special aquaculture and large-scale freshwater fish breeding bases."
+        },
+        {
+            "id": 124,
+            "initialDemand": "Intelligent Laboratory Reagent Refrigerator Monitoring System",
+            "detailedDemand": "A special management platform for R&D centers of universities and pharmaceutical enterprises, which realizes strict supervision of volatile and perishable reagents through temperature control modules and electronic door locks. The system supports swipe card verification of collection permissions, records the duration of door opening and closing in real time, and immediately alarms when temperature is out of control or gas concentration exceeds the standard. It reduces resource waste by tracking the validity period of reagents, ensures the safety of the scientific research environment, and is suitable for biological, medical and material laboratory scenarios."
+        },
+        {
+            "id": 125,
+            "initialDemand": "Intelligent Workshop Forklift Anti-Collision Alarm System",
+            "detailedDemand": "A safety protection platform for industrial material handling processes, which monitors the distance between forklifts and personnel, and between forklifts and forklifts by using positioning technology. The system supports blind area visual assistance, and forces deceleration or brake alarm when the distance is too close. Through the statistics of illegal operation records, it analyzes the safety of warehouse layout, and is suitable for busy handling scenarios such as heavy chemical industry, e-commerce warehousing and automobile assembly lines."
+        },
+        {
+            "id": 126,
+            "initialDemand": "Intelligent Construction Site Construction Hoist Monitoring System",
+            "detailedDemand": "A special equipment management platform for construction hoisting machinery, which real-timely collects the load capacity, running speed, tilt angle and height position of the hoist. The system supports biometric identity authentication of drivers, and strictly prohibits overloading operation or unlicensed operation. By recording the number of equipment operation cycles, it reminds the maintenance of key components, and is suitable for vertical transportation supervision scenarios of housing construction and infrastructure projects."
+        },
+        {
+            "id": 127,
+            "initialDemand": "Intelligent Tea Garden Microclimate and Pest Monitoring System",
+            "detailedDemand": "An ecological monitoring platform for alpine tea bases that dynamically captures air temperature and humidity, sunlight intensity and soil nutrients during the critical growth period of tea leaves. The system is equipped with intelligent pest trapping lamps, which automatically identify and count the types and quantities of pests, providing data support for biological control. It improves the brand value of tea leaves through traceability data collection, and is suitable for high-quality tea planting and ecological agriculture demonstration zones."
+        },
+        {
+            "id": 128,
+            "initialDemand": "Smart City Bridge Structural Health Monitoring System",
+            "detailedDemand": "A digital management and maintenance platform for key bridges such as cross-river and cross-line bridges, which continuously captures data on main beam stress, structural deflection, stay cable force and environmental vibration of bridges. The system can identify abnormal structural loss based on big data analysis, and warn of collapse risks under extreme weather or heavy loads. It generates annual health assessment reports through monitoring data to assist management departments in formulating preventive reinforcement plans, and is suitable for various municipal bridges and expressway hub sections."
+        },
+        {
+            "id": 129,
+            "initialDemand": "Intelligent Garden Seedling Automatic Anti-Freezing System",
+            "detailedDemand": "A disaster resistance management platform for urban gardens and forest farm cultivation bases, which senses extreme low temperature and frost precursors through deployed meteorological sensors. The system can automatically link electric tracing bands or spray systems for physical anti-freezing, and evaluate the damage rate of seedlings after disasters. Through the analysis of historical climate data, it optimizes suggestions for introducing seedling varieties, ensures the safety of urban greening assets, and is suitable for garden nurseries and forestry research bases."
+        },
+        {
+            "id": 130,
+            "initialDemand": "Intelligent Commercial Coffee Machine Operation and Maintenance Management System",
+            "detailedDemand": "A distributed equipment management platform for chain catering brands that real-timely collects the number of cups dispensed by coffee machines, boiler pressure, bean grinding frequency and filter element life. The system can analyze the sales peak periods of each store and predict the replenishment cycle of coffee beans and consumables. It remotely locks the equipment to prevent the expansion of faults when pressure is abnormal or water quality exceeds the standard, ensures the consistency of product taste, and is suitable for chain coffee shops, unmanned retail terminals and corporate administrative tea break rooms."
+        },
+        {
+            "id": 131,
+            "initialDemand": "Smart Sluice and Irrigation Pump Station Linkage System",
+            "detailedDemand": "A digital platform for basin water right management and large-scale irrigation area scheduling, which automatically adjusts the opening height of sluices according to the water level difference between upstream and downstream. The system supports remote start of irrigation pump stations, real-timely monitors motor current and flow data to ensure the water distribution plan is implemented as required. It has functions of anti-theft drainage identification and pump station inspection track recording, improves the transparency of water resource management, and is suitable for the Yellow River Diversion Irrigation Area and large-scale irrigation projects."
+        },
+        {
+            "id": 132,
+            "initialDemand": "Smart Swimming Pool Water Quality and Drowning Prevention Monitoring System",
+            "detailedDemand": "A safety and health management platform for public swimming venues that continuously monitors water temperature, residual chlorine, pH value and turbidity to ensure water quality compliance. The system uses underwater cameras and AI visual analysis technology to real-timely identify the static duration and abnormal postures of swimmers underwater. Once a drowning risk is judged, it immediately sends a vibration alarm to the lifeguard's wristband. It optimizes the water change frequency through passenger flow peak statistics, and is suitable for gymnasiums, hotels and water park scenarios."
+        },
+        {
+            "id": 133,
+            "initialDemand": "Intelligent Catering Fume Purification Monitoring System",
+            "detailedDemand": "An environmental protection monitoring platform for commercial catering areas and centralized shopping malls that continuously collects data on fume concentration, fan current and purifier working conditions. The system can automatically identify whether the purification equipment is opened in linkage with the cooking range, and uploads excessive data to the urban management supervision terminal in real time. It reminds merchants to clean the filter screen through purification efficiency analysis, solves the problem of catering fume disturbing residents, and is suitable for large commercial complexes and catering pedestrian streets."
+        },
+        {
+            "id": 134,
+            "initialDemand": "Intelligent Mine Rail Transport Dispatching System",
+            "detailedDemand": "A safety management platform for narrow-gauge transportation in underground mines that monitors the position and operation status of mine cars by using spatial positioning technology. The system can automatically control the turnout steering to realize coordinated operation and anti-collision control of multiple cars. When the working environment of the roadway is harsh, it supports remote unmanned driving control, improves the ore turnover rate through operation statistical analysis, ensures the safety of underground transportation, and is suitable for underground mining scenarios such as coal mines and iron mines."
+        },
+        {
+            "id": 135,
+            "initialDemand": "Smart Beehive Breeding Monitoring System",
+            "detailedDemand": "For professional beekeeping farms and ecological agriculture bases, real-timely monitor the temperature, humidity, sound frequency and weight changes inside the beehive through embedded sensors. The system can use audio analysis algorithms to judge whether the bee colony has abnormalities such as swarming, queen loss or hornet invasion, automatically adjust the opening and closing of beehive vents, establish a correlation model between nectar source distribution and honey production, assist beekeepers to remotely grasp the health status of bee colonies, and is suitable for mobile beekeeping and fixed-point breeding scenarios."
+        },
+        {
+            "id": 136,
+            "initialDemand": "Museum Cultural Relic Microenvironment Constant Control System",
+            "detailedDemand": "Serving museums and archaeological research institutes, aiming at cultural relics extremely sensitive to the environment such as precious calligraphy and paintings, silk fabrics, high-precision microenvironment monitoring terminals are deployed inside the display cabinets. The system can regulate the temperature, humidity, light ultraviolet intensity and VOC concentration of the microenvironment at the millisecond level. Once the environmental fluctuation exceeds the threshold, it immediately triggers the constant temperature and humidity machine to intervene and alarm, and generates a compliance report on the cultural relic preservation environment, which is suitable for museum exhibition and warehouse preservation scenarios."
+        },
+        {
+            "id": 137,
+            "initialDemand": "Concrete Setting Period Strength Monitoring System",
+            "detailedDemand": "For large-scale infrastructure projects and bridge construction sites, wireless sensors are pre-embedded into the concrete pouring body to real-timely collect the internal temperature field and stress changes during the setting process. Based on the maturity algorithm, the system real-timely calculates the current strength of concrete, automatically controls the curing spray and thermal insulation measures, informs the construction party of the best form removal time, effectively prevents cracks caused by temperature difference between inside and outside, and is suitable for mass concrete construction scenarios."
+        },
+        {
+            "id": 138,
+            "initialDemand": "Ancient Building Structural Health Monitoring System",
+            "detailedDemand": "Serving cultural relic protection units, aiming at ancient buildings with wooden or masonry structures, deploy sensors for tilt angle, settlement, cracks and wood moisture content. The system can dynamically analyze the structural stability of buildings under wind load and vibration influence, identify the risk of termite erosion or damp decay, immediately warn when the structure has slight displacement, assist in formulating renovation plans, and is suitable for the protection scenarios of ancient temples, ancient pagodas and historical buildings."
+        },
+        {
+            "id": 139,
+            "initialDemand": "Wind Turbine Blade De-Icing Monitoring System",
+            "detailedDemand": "For wind farms in alpine regions, real-timely monitor the blade icing thickness and aerodynamic imbalance state through optical fiber sensors or vibration sensors installed on the blade surface. The system predicts the icing trend combined with meteorological data, automatically triggers blade heating de-icing or shutdown protection strategies, calculates the impact of icing on power generation efficiency, prevents equipment damage or safety accidents caused by icing, and is suitable for high-altitude and offshore wind power operation and maintenance scenarios."
+        },
+        {
+            "id": 140,
+            "initialDemand": "Smart Wine Cellar Aging Environment Management System",
+            "detailedDemand": "For high-end wineries and private wine cellars, strictly monitor the constant temperature, humidity, light and vibration of the wine storage space. The system supports zoned management of the optimal storage environment for different types of wine, sends emergency notifications to administrators through multiple channels when equipment failures cause environmental fluctuations, records the storage environment curve of each bottle of wine throughout its life cycle, ensures the quality and aging value of the wine body, and is suitable for professional storage scenarios of red wine and white spirits."
+        },
+        {
+            "id": 141,
+            "initialDemand": "Textile Workshop Loom Tension Monitoring System",
+            "detailedDemand": "Serving modern textile factories, real-timely monitor the warp and weft yarn tension changes and yarn breakage during the operation of high-speed looms. The system automatically adjusts the loom speed by analyzing tension fluctuations, stops the machine at the millisecond level and indicates the break point position when yarn breakage occurs, counts the production efficiency and defective rate of a single machine, effectively reduces fabric defects and raw material waste, and is suitable for textile manufacturing scenarios such as cotton spinning and chemical fiber."
+        },
+        {
+            "id": 142,
+            "initialDemand": "Grain Silo Grain Condition Measurement and Control System",
+            "detailedDemand": "For national grain reserves or large farm silos, monitor the temperature, humidity, moisture and pest activity sounds inside the grain pile through layered pre-embedded sensors. The system uses 3D thermal maps to visually display grain conditions, automatically controls the operation of ventilation cages and grain coolers, prevents grain heating, mildew and condensation, calculates the grain storage loss rate, and is suitable for long-term storage scenarios of wheat, rice and other grains."
+        },
+        {
+            "id": 143,
+            "initialDemand": "Firefighter Individual Vital Signs Monitoring System",
+            "detailedDemand": "For on-site command of fire rescue, real-timely monitor the heart rate, body temperature, remaining air volume of air respirators and movement postures of firefighters entering the fire scene through sensors integrated in protective clothing. When the system detects that a person is stationary or has abnormal vital signs, it automatically sends a distress signal. The command terminal can real-timely locate the person's position and evaluate the evacuation time, which is suitable for fire rescue and hazardous chemical disposal actual combat scenarios."
+        },
+        {
+            "id": 144,
+            "initialDemand": "Ski Resort Snow Quality Safety Monitoring System",
+            "detailedDemand": "Serving large ski resorts, monitor snow depth, snow temperature, wind speed and ultraviolet intensity at key nodes of ski runs. The system can analyze the changing trend of snow quality (such as whether an ice crust is formed), evaluate the avalanche risk level, automatically control snowmaking machines to operate in the optimal temperature and humidity window, provide snow condition announcements for skiers, and is suitable for the operation and safety management scenarios of alpine ski resorts."
+        },
+        {
+            "id": 145,
+            "initialDemand": "Hospital Medical Textile Washing Traceability System",
+            "detailedDemand": "For medical laundry centers and hospital infection control departments, track the collection, washing, disinfection and distribution processes of medical textiles such as patient gowns and bed sheets through high-temperature resistant RFID tags. The system can automatically record whether the washing temperature and duration meet the standards, count the number of textile washings to warn of scrapping, prevent cross-infection between clean and contaminated items, ensure the hygiene compliance of medical textiles, and is suitable for hospital logistics management scenarios."
+        },
+        {
+            "id": 146,
+            "initialDemand": "Special Elevator Operation Health Diagnosis System",
+            "detailedDemand": "For special elevators in hospitals, mines or super high-rise buildings, monitor the traction machine vibration, steel wire rope flaw detection data and car leveling accuracy. The system establishes a fault omen model through machine learning, identifies abnormal door opening/closing and slippage hazards, automatically triggers maintenance work orders and guides troubleshooting directions, realizes on-demand maintenance instead of time-based maintenance, and is suitable for high-load and high-risk elevator operation scenarios."
+        },
+        {
+            "id": 147,
+            "initialDemand": "Intelligent Environmental Control System for Edible Fungus Mushroom Houses",
+            "detailedDemand": "For industrial edible fungus planting bases, aiming at the extremely sensitive characteristics of fungi to CO2 concentration, light scattering rate, temperature and humidity, provide high-precision environmental regulation. The system automatically adjusts the humidification and ventilation strategies according to different stages such as mycelium growth and fruiting, monitors the risk of miscellaneous bacteria pollution, ensures the yield and appearance of fungi through environmental data traceability, and is suitable for planting scenarios of Flammulina velutipes, Lentinus edodes and other fungi."
+        },
+        {
+            "id": 148,
+            "initialDemand": "Ship Hull Corrosion and Fouling Monitoring System",
+            "detailedDemand": "Serving ocean shipping enterprises, monitor seawater corrosion potential, coating integrity and biological adhesion density through sensors on the hull surface. The system can evaluate the increase in hull resistance, optimize the output of cathodic protection current, assist shipowners in deciding the optimal time for cleaning and dry docking maintenance, reduce fuel consumption and maintenance costs, and is suitable for the operation and maintenance scenarios of large merchant ships and marine engineering equipment."
+        },
+        {
+            "id": 149,
+            "initialDemand": "Golf Course Lawn Refined Irrigation System",
+            "detailedDemand": "For golf course lawn maintenance, monitor the root zone moisture and salinity through soil sensors distributed on greens and tees. Combined with micro-meteorological station data, the system independently controls sprinkler heads in different areas, preventing lawn yellowing and root rot caused by water accumulation, counts water consumption and optimizes maintenance costs, and is suitable for high-end sports lawn maintenance scenarios."
+        },
+        {
+            "id": 150,
+            "initialDemand": "Archives Warehouse Ten-Prevention Integrated Management System",
+            "detailedDemand": "For archives and confidential rooms, integrate ten-prevention monitoring functions such as anti-theft, fire prevention, insect prevention, rat prevention, moisture prevention, dust prevention, etc. The system links compact shelves to automatically open for ventilation, monitors the concentration of acidic gases and mold spores in the air, automatically switches lighting and environmental modes when someone enters, ensures the long-term preservation of paper and film archives, and is suitable for the preservation scenarios of important historical archives."
+        },
+        {
+            "id": 151,
+            "initialDemand": "Shared Battery Swapping Cabinet Battery Safety Operation and Maintenance System",
+            "detailedDemand": "Serving two-wheel electric vehicle battery swapping operators, real-timely monitor the voltage difference, cell temperature and charging curve of each battery in the cabinet. The system can automatically lock faulty batteries to prohibit lending, identify the risk of battery being flooded or physically damaged, automatically trigger the fire extinguishing device in the cabinet and cut off the power supply in the early stage of fire, optimize the battery charging strategy to extend service life, and is suitable for urban instant distribution energy supply scenarios."
+        },
+        {
+            "id": 152,
+            "initialDemand": "Tower Crane Anti-Collision Safety System",
+            "detailedDemand": "For multi-tower crane joint operations at large construction sites, monitor the slewing angle of the tower crane jib, trolley position and lifting weight data through high-precision positioning sensors. When the system detects collision interference risks between multiple tower cranes, or overload and excessive wind speed, it forcibly cuts off the control power supply in the dangerous direction and alarms, records illegal operation behaviors, and is suitable for high-rise building construction safety and group tower operation scenarios."
+        },
+        {
+            "id": 153,
+            "initialDemand": "Medical Waste Full-Process Supervision System",
+            "detailedDemand": "For health supervision institutions and hospitals, automatically weigh and print traceability labels through intelligent medical waste collection vehicles and temporary storage boxes. The system monitors the track and weight changes of medical waste from department generation, in-hospital transportation to temporary storage handover, prevents illegal loss of medical waste or mixing with domestic waste, warns of overtime temporary storage time, and is suitable for medical institution infection control and compliance supervision scenarios."
+        },
+        {
+            "id": 154,
+            "initialDemand": "Chemical Reactor Safety Monitoring System",
+            "detailedDemand": "Serving fine chemical production enterprises, aiming at core reactor equipment, real-timely monitor the pressure, temperature, stirring speed and cooling water flow inside the reactor. The system predicts the risk of reaction out of control (such as temperature runaway) through material balance algorithms, automatically triggers emergency pressure relief or injection of polymerization inhibitors, records process parameter curves for quality traceability, and is suitable for chemical synthesis scenarios such as pharmaceutical intermediates and coatings."
+        },
+        {
+            "id": 155,
+            "initialDemand": "Wild Giant Panda Habitat Monitoring System",
+            "detailedDemand": "For nature reserve management agencies, monitor human activity interference, bamboo forest growth status and microclimate in the reserve through infrared cameras and environmental sensor networks. The system can identify wild animal species and activity tracks through AI, warn of poaching and illegal intrusion behaviors, provide data support for endangered species protection and habitat ecological restoration, and is suitable for national parks and wildlife protection scientific research scenarios."
+        },
+        {
+            "id": 156,
+            "initialDemand": "Photovoltaic Panel Intelligent Cleaning Robot Scheduling System",
+            "detailedDemand": "For photovoltaic power stations in deserts or high-dust areas, monitor the light transmittance loss and power generation efficiency decline range of component surfaces through dust accumulation sensors. The system can automatically calculate the optimal cleaning benefit point, dispatch cleaning robots to carry out independent cleaning operations, monitor the power and fault status of robots, improve the overall power generation income of photovoltaic power stations, and is suitable for large-scale ground centralized photovoltaic operation and maintenance scenarios."
+        },
+        {
+            "id": 157,
+            "initialDemand": "Railway Track Foreign Object Intrusion Detection System",
+            "detailedDemand": "Serving high-speed railway engineering departments, monitor the railway line perimeter and track surface through lidar and machine vision terminals. The system can identify falling rocks, fallen trees or illegally intruding personnel/livestock at the millisecond level, automatically link the signal system to adjust train operation speed or emergency stop, record video evidence of intrusion, and is suitable for safety protection scenarios of mountain railways and high-speed railway lines."
+        },
+        {
+            "id": 158,
+            "initialDemand": "Laboratory Ultra-Low Temperature Refrigerator Monitoring System",
+            "detailedDemand": "For biological sample banks and CDC (Center for Disease Control and Prevention), carry out dual-channel independent power supply and temperature monitoring for -80℃ ultra-low temperature refrigerators. The system sends strong alarms through telephone voice when power is cut off, the door is not closed tightly or the temperature rises, records the continuous temperature data of sample storage, supports centralized kanban management of multiple refrigerators, ensures the safety of high-value biological samples such as vaccines and cell lines, and is suitable for life science research scenarios."
+        },
+        {
+            "id": 159,
+            "initialDemand": "Commercial Self-Service Laundry Room Operation and Maintenance System",
+            "detailedDemand": "Serving campus or apartment self-service laundry operators, monitor the motor current, water inflow and drum vibration of washing machines and dryers. The system can remotely diagnose equipment faults (such as broken belts, no drainage), automatically remind to clean the lint filter and add detergent, count the usage frequency of a single machine to optimize equipment layout, and is suitable for unattended laundry service scenarios."
+        },
+        {
+            "id": 160,
+            "initialDemand": "Outdoor Billboard Safety Status Monitoring System",
+            "detailedDemand": "For urban municipal administration and advertising companies, aiming at large roof or column-type billboards, monitor their tilt angle, wind load vibration amplitude and bolt loosening. The system evaluates the risk of structural collapse under typhoon and rainstorm weather, monitors whether lighting facilities are leaking electricity or malfunctioning, and promptly notifies demolition or reinforcement to ensure the safety of citizens, and is suitable for urban outdoor facility management scenarios."
+        },
+        {
+            "id": 161,
+            "initialDemand": "Ground Source Heat Pump Energy Efficiency Management System",
+            "detailedDemand": "For buildings using shallow geothermal energy for heating and cooling, monitor the inlet and outlet water temperature of ground heat exchanger groups, soil thermal balance state and unit COP value. The system can analyze the soil heat accumulation effect in the long term, dynamically adjust the winter and summer heat extraction and release strategies to maintain geological thermal balance, automatically switch to backup heat sources when faults occur, and is suitable for energy-saving HVAC operation and maintenance scenarios of green buildings."
+        },
+        {
+            "id": 162,
+            "initialDemand": "Smart Public Toilet Hygiene Management System",
+            "detailedDemand": "For urban municipal management and scenic spots, monitor odor (ammonia, hydrogen sulfide), consumable usage (toilet paper, soap), and passenger flow in real time. The system automatically triggers the fresh air ventilation system and notifies cleaning staff when the environment is poor or consumables are insufficient. It supports user feedback evaluation, statistical analysis of usage frequency to optimize cleaning shifts, and improves the service quality and hygiene level of public toilets."
+        },
+        {
+            "id": 163,
+            "initialDemand": "Airport Smart Baggage Sorting and Tracking System",
+            "detailedDemand": "Serving airport ground services, using RFID technology to track the location and status of baggage in real time throughout the check-in, sorting, loading, and claiming processes. The system monitors the operation status of conveyor belts and sorting turntables, automatically warns of sorting errors or baggage jams, provides passengers with baggage trajectory queries, reduces the rate of lost and delayed baggage, and improves airport operation efficiency."
+        },
+        {
+            "id": 164,
+            "initialDemand": "Intelligent Monitoring System for Offshore Oil Platform Structure",
+            "detailedDemand": "For offshore oil and gas exploitation enterprises, monitor the vibration, tilt, stress, and seawater corrosion status of the platform structure in real time. The system combines marine meteorological data to evaluate the structural safety risks under extreme weather (such as typhoons and huge waves), warns of fatigue damage in advance, guides preventative maintenance, ensures the safe operation of offshore platforms, and prevents major safety accidents."
+        },
+        {
+            "id": 165,
+            "initialDemand": "Smart Library Book Inventory and Location System",
+            "detailedDemand": "Serving public libraries and university libraries, using RFID/UHF technology to realize rapid book inventory and precise positioning. The system monitors the real-time location of books on bookshelves, automatically identifies misplaced books and generates shelf adjustment tasks, monitors the status of self-service borrowing and returning machines and security gates, improves the efficiency of book management, and facilitates readers to quickly find books."
+        },
+        {
+            "id": 166,
+            "initialDemand": "Urban Drainage and Flood Control Pump Station System",
+            "detailedDemand": "For urban water affairs departments, monitor the water level of regulating pools, river water levels, and the operating status of drainage pumps in real time. The system automatically starts and stops pumps based on rainfall and water level changes, optimizes drainage dispatching strategies, warns of equipment faults and excessive water levels in advance, effectively prevents urban waterlogging, and ensures the safety of urban flood control."
+        },
+        {
+            "id": 167,
+            "initialDemand": "Intelligent Monitoring System for Highway Tunnels",
+            "detailedDemand": "Serving highway management departments, monitor CO concentration, visibility, wind speed, and lighting brightness inside the tunnel in real time. The system automatically links fans and lighting equipment to adjust environmental parameters, intelligently identifies abnormalities such as vehicle accidents and fires, automatically triggers emergency plans (such as signal light control and broadcast evacuation), and ensures the safety and smoothness of tunnel traffic."
+        },
+        {
+            "id": 168,
+            "initialDemand": "Smart Operating Room Environment Control System",
+            "detailedDemand": "For hospital operating room management, strictly monitor environmental parameters such as laminar flow pressure difference, temperature, humidity, and cleanliness. The system monitors the pressure status of medical gases (oxygen, anesthesia gas, etc.), automatically adjusts the purification air conditioning system to maintain a sterile environment, records environmental data throughout the operation for medical dispute traceability, and ensures the safety of the surgical environment."
+        },
+        {
+            "id": 169,
+            "initialDemand": "Industrial Boiler Combustion Optimization System",
+            "detailedDemand": "Serving thermal power plants and heating enterprises, monitor boiler flue gas components (oxygen content, CO), furnace temperature, and fuel flow in real time. The system analyzes combustion efficiency, automatically adjusts the air-fuel ratio to achieve optimal combustion, monitors pollutant emissions to ensure compliance, reduces fuel consumption and carbon emissions, and improves the economic benefits of boiler operation."
+        },
+        {
+            "id": 170,
+            "initialDemand": "Smart Zoo Animal Health and Enclosure System",
+            "detailedDemand": "For zoo management, monitor the environmental temperature and humidity of animal venues, the status of cage door locks, and the activity trajectory of animals. The system uses wearable devices or cameras to monitor animal health signs and behaviors, warns of abnormal physiological indicators or escape risks, provides data support for animal breeding and disease prevention, and improves the level of animal welfare."
+        },
+        {
+            "id": 171,
+            "initialDemand": "Intelligent Monitoring System for Cable Trench in Substation",
+            "detailedDemand": "Serving power grid companies, monitor the temperature of cable joints, water level in the trench, and smoke concentration in the substation cable trench in real time. The system automatically links drainage pumps and fire extinguishing devices, warns of cable overheating or fire risks in advance, prevents power outages caused by cable faults, and ensures the safe and stable operation of the substation."
+        },
+        {
+            "id": 172,
+            "initialDemand": "Smart Campus Canteen Food Safety System",
+            "detailedDemand": "For school logistics management, monitor the temperature and humidity of food warehouses, the working status of disinfection cabinets, and the temperature of food processing centers in real time. The system manages the retention of food samples, traces the source of ingredients and the disinfection records of tableware, warns of non-compliant operations, ensures the food safety of teachers and students, and prevents foodborne disease outbreaks."
+        },
+        {
+            "id": 173,
+            "initialDemand": "Intelligent Monitoring System for Urban Heat Supply Network",
+            "detailedDemand": "Serving heating companies, monitor the pressure, temperature, and flow rate of the heat supply pipeline network and the operating status of heat exchange stations in real time. The system analyzes the thermal balance of the pipe network, quickly locates leakage points and heat loss areas, automatically adjusts the valve opening to achieve on-demand heating, improves heating quality, and reduces energy waste."
+        },
+        {
+            "id": 174,
+            "initialDemand": "Smart Pharmacy Drug Storage and Dispensing System",
+            "detailedDemand": "For hospital pharmacies and chain drugstores, monitor the temperature and humidity of drug storage areas and the inventory quantity in real time. The system automatically warns of expiring drugs and abnormal environmental parameters, monitors the operating status of automatic drug dispensing robots, ensures the quality and safety of drugs, and improves the efficiency and accuracy of drug dispensing."
+        },
+        {
+            "id": 175,
+            "initialDemand": "Intelligent Monitoring System for Port Container Gantry Crane",
+            "detailedDemand": "Serving port terminals, monitor the wind speed, spreader status, lifting weight, and vibration of the gantry crane structure in real time. The system prevents safety accidents caused by overload or strong winds, records the number of operation boxes and efficiency, analyzes equipment fatigue status to guide maintenance, and ensures the efficient and safe operation of port logistics."
+        },
+        {
+            "id": 176,
+            "initialDemand": "Smart Gym Equipment Usage and Maintenance System",
+            "detailedDemand": "For commercial gyms, monitor the usage frequency, running time, and vibration/noise status of fitness equipment. The system analyzes the popularity of equipment to optimize layout, automatically generates maintenance work orders based on usage and wear status, avoids equipment downtime affecting user experience, and extends equipment service life."
+        },
+        {
+            "id": 177,
+            "initialDemand": "Intelligent Monitoring System for Solar Panel Production Line",
+            "detailedDemand": "Serving photovoltaic manufacturing enterprises, monitor the core process parameters (temperature, lamination pressure), equipment operating status, and product yield rate of the solar panel production line in real time. The system traces the production data of each component, analyzes the causes of quality defects, optimizes process parameters, and improves production efficiency and product quality."
+        },
+        {
+            "id": 178,
+            "initialDemand": "Smart Cinema Projection and Environment System",
+            "detailedDemand": "For cinema chains, monitor the brightness and service life of projector bulbs, the temperature and CO2 concentration in the hall, and the status of the sound system in real time. The system automatically warns of bulb replacement and equipment faults, remotely adjusts the air conditioning and playback equipment, ensures the viewing experience of the audience, and reduces operation and maintenance costs."
+        },
+        {
+            "id": 179,
+            "initialDemand": "Intelligent Monitoring System for Coal Mine Ventilation",
+            "detailedDemand": "For coal mine safety production, monitor the airflow speed, gas (gas) concentration, CO concentration, and the switching status of main fans and wind doors in the tunnel in real time. The system automatically adjusts the air volume according to the gas concentration, alarms immediately when the gas exceeds the limit and cuts off the power supply in the area, ensuring the ventilation safety of underground operations."
+        },
+        {
+            "id": 180,
+            "initialDemand": "Smart Bank Vault Security and Environment System",
+            "detailedDemand": "Serving banks and financial escort companies, monitor the vibration, infrared intrusion, temperature, and humidity inside the vault in real time. The system links video surveillance and alarm devices, ensures the safety of cash and important vouchers, prevents theft and moisture damage, and realizes the intelligent management of vault security."
+        },
+        {
+            "id": 181,
+            "initialDemand": "Intelligent Monitoring System for Sewage Treatment Process",
+            "detailedDemand": "For sewage treatment plants, monitor water quality indicators such as dissolved oxygen (DO), pH value, COD, ammonia nitrogen, and the operating status of aeration blowers and sludge scrapers in real time. The system automatically adjusts the aeration volume and chemical dosage, optimizes the sewage treatment process, ensures that the effluent water quality meets the standard, and reduces energy and chemical consumption."
+        },
+        {
+            "id": 182,
+            "initialDemand": "Smart Office Meeting Room Management System",
+            "detailedDemand": "Serving enterprise administration, monitor the personnel occupancy status (infrared/human presence) and air quality (CO2, temperature) of meeting rooms in real time. The system automatically releases booked but unused meeting rooms, links lights and air conditioners to save energy, displays the usage status of meeting rooms, improves the utilization efficiency of meeting resources and the comfort of the office environment."
+        },
+        {
+            "id": 183,
+            "initialDemand": "Intelligent Monitoring System for Railway Pantograph-Catenary",
+            "detailedDemand": "For electrified railways, monitor the contact force, arc generation, and skateboard wear between the pantograph and the contact network in real time. The system analyzes the current collection quality, warns of abnormal wear or pantograph damage risks, provides data support for the maintenance of the pantograph-catenary system, and ensures the safe power supply of train operation."
+        },
+        {
+            "id": 184,
+            "initialDemand": "Smart Hospital Infusion Management System",
+            "detailedDemand": "Serving hospital inpatient departments, monitor the drip rate and remaining liquid volume of infusion bags in real time. The system automatically alarms to the nurse station when the infusion is about to end or the drip rate is abnormal (needle blockage/leakage), monitors the patient's movement status (in bed/leaving), reduces the workload of nurses, and improves the safety of patient infusion."
+        },
+        {
+            "id": 185,
+            "initialDemand": "Intelligent Monitoring System for Base Station Battery Backup",
+            "detailedDemand": "For communication tower operators, monitor the voltage, current, temperature, and remaining capacity (SOC) of the backup battery pack of the base station in real time. The system evaluates the battery health status (SOH), warns of aging or stolen batteries, ensures the uninterrupted power supply of the base station in the event of a mains power failure, and guarantees the stability of the communication network."
+        },
+        {
+            "id": 186,
+            "initialDemand": "Smart Supermarket Shopping Cart Management System",
+            "detailedDemand": "Serving large supermarkets, use positioning technology to monitor the distribution and flow of shopping carts. The system automatically locks the wheels when the shopping cart leaves the specified area to prevent loss, counts the usage rate of shopping carts to optimize the number of placements, monitors the battery status (if it is a smart cart), and reduces asset loss and management costs."
+        },
+        {
+            "id": 187,
+            "initialDemand": "Intelligent Monitoring System for Urban Sound Environment (Noise Map)",
+            "detailedDemand": "For environmental protection departments, deploy noise sensors in functional areas of the city to monitor noise decibel levels and frequency characteristics in real time. The system generates an urban noise map, automatically identifies noise sources (such as construction, traffic, square dancing), provides data support for noise pollution control and urban planning, and improves the quality of the acoustic environment for residents."
+        },
+        {
+            "id": 188,
+            "initialDemand": "Smart Factory AGV Logistics Scheduling System",
+            "detailedDemand": "Serving discrete manufacturing factories, monitor the location, power, and load status of AGVs (Automated Guided Vehicles) in the workshop in real time. The system intelligently schedules AGVs to transport materials according to production beats, automatically avoids obstacles and charges, optimizes logistics paths, improves the efficiency of material distribution on the production line, and realizes the automation of internal logistics in the factory."
+        },
+        {
+            "id": 189,
+            "initialDemand": "Intelligent Monitoring System for Grain Drying Process",
+            "detailedDemand": "For grain purchasing and storage enterprises, monitor the grain moisture content, hot air temperature, and discharge speed inside the drying tower in real time. The system automatically controls the drying process to prevent grain from being burnt or having uneven moisture, ensures the quality of grain storage, reduces drying energy consumption, and reduces post-production grain loss."
+        },
+        {
+            "id": 190,
+            "initialDemand": "Smart Parking Garage Guidance and Car Finding System",
+            "detailedDemand": "Serving large shopping malls and transportation hubs, monitor the occupancy status of each parking space in the indoor parking lot in real time through ultrasonic or video piles. The system guides vehicles to empty parking spaces through screens and indicator lights, supports reverse car searching (input license plate to find car location), improves the turnover rate of parking spaces and the parking experience of car owners."
+        },
+        {
+            "id": 191,
+            "initialDemand": "Intelligent Monitoring System for Aircraft Engine Test Bench",
+            "detailedDemand": "For aviation maintenance enterprises, monitor the vibration, thrust, fuel flow, and exhaust temperature of the aircraft engine during the ground test run in real time. The system analyzes the performance data of the engine, judges whether the maintenance quality meets the standard, warns of abnormal parameters, ensures the flight safety of the engine, and improves the efficiency of test run detection."
+        },
+        {
+            "id": 192,
+            "initialDemand": "Smart Urban Tree Health Monitoring System",
+            "detailedDemand": "For landscape architecture departments, monitor the tilt angle, soil moisture, and pest vibration sounds of precious trees or street trees in real time. The system warns of the risk of tree collapse during typhoons, reminds of watering or pest control, establishes electronic archives of trees, protects urban greening achievements, and eliminates public safety hazards."
+        },
+        {
+            "id": 193,
+            "initialDemand": "Intelligent Monitoring System for Water Quality in Drinking Water Source",
+            "detailedDemand": "Serving water supply companies and environmental protection departments, monitor water quality indicators such as pH, turbidity, algae density, and heavy metals in reservoirs or water intake points in real time. The system warns of water pollution incidents or illegal intrusions, links water intake pumps to stop operation in emergency situations, and ensures the safety of urban water supply from the source."
+        },
+        {
+            "id": 194,
+            "initialDemand": "Intelligent Monitoring System for Rubber Tire Curing Process",
+            "detailedDemand": "For tire manufacturing enterprises, monitor the temperature, internal pressure, and curing time of the tire mold in real time. The system ensures that the tire is vulcanized under the best process conditions, prevents quality problems such as under-sulfur or over-sulfur, traces the production data of each tire, and improves product consistency and safety."
+        },
+        {
+            "id": 195,
+            "initialDemand": "Smart Museum Showcase Anti-Theft System",
+            "detailedDemand": "For museums, monitor the vibration of the showcase glass, the switching status of the cabinet door, and the position of cultural relics in real time. The system uses multiple sensing technologies (such as infrared curtains, pressure sensors) to identify illegal intrusion or theft behaviors, triggers on-site alarms and locks the exhibition hall, ensuring the absolute safety of precious cultural relics."
+        },
+        {
+            "id": 196,
+            "initialDemand": "Intelligent Monitoring System for Steel Ladle Status",
+            "detailedDemand": "Serving steel smelting enterprises, monitor the temperature of the outer wall of the ladle (evaluating the thickness of the refractory material), the location of the ladle, and the number of turnover times in real time. The system warns of the risk of ladle puncture in advance, optimizes the scheduling and turnover efficiency of the ladle, reduces the heat loss of molten steel, and ensures the safety of steelmaking production."
+        },
+        {
+            "id": 197,
+            "initialDemand": "Intelligent Management System for Shared Research Instruments",
+            "detailedDemand": "For university and research institute laboratories, manage the power supply access and usage status of large-scale scientific research instruments. The system supports swiping cards or scanning codes to turn on the machine, automatically records the usage time and equipment status, monitors the environment (temperature, humidity, voltage) where the instrument is located, improves the sharing rate and management efficiency of equipment, and facilitates scientific research billing."
+        },
+        {
+            "id": 198,
+            "initialDemand": "Intelligent Monitoring System for High-Speed Train Bogie",
+            "detailedDemand": "Serving railway bureaus, monitor the temperature of the axle box, the vibration acceleration of the frame, and the hunting stability of the high-speed train bogie in real time. The system warns of key component faults such as bearings and shock absorbers in advance, provides decision-making basis for train speed limit or maintenance, and ensures the safe operation of high-speed trains."
+        },
+        {
+            "id": 199,
+            "initialDemand": "Smart Street Trash Can Overflow Monitoring System",
+            "detailedDemand": "For sanitation departments, monitor the fill level and internal temperature of trash cans on municipal roads in real time. The system automatically notifies sanitation workers to clear and transport when the trash can is full, warns of fire risks (such as unextinguished cigarette butts), optimizes the garbage collection route, improves cleaning efficiency, and maintains the cleanliness of the city."
+        },
+        {
+            "id": 200,
+            "initialDemand": "Intelligent Monitoring System for Hydroponic Plant Factory",
+            "detailedDemand": "Serving modern agricultural enterprises, monitor the EC value, pH value, temperature, and dissolved oxygen of the nutrient solution in the hydroponic workshop, as well as the status of the LED plant growth light in real time. The system automatically adjusts the nutrient solution formula and light strategy, realizes the precise cultivation of vegetables/flowers, improves the yield and quality per unit area, and is suitable for urban vertical agriculture."
+        },
+        {
+            "id": 201,
+            "initialDemand": "Smart Cold Chain Logistics Box Management System",
+            "detailedDemand": "For pharmaceutical and fresh food distribution, monitor the temperature and humidity, vibration, and location inside the reusable cold chain insulation box in real time. The system ensures the quality stability of goods during the \"last mile\" distribution, manages the recycling and cleaning status of the box, reduces packaging costs, and ensures logistics safety."
+        },
+        {
+            "id": 202,
+            "initialDemand": "Intelligent Monitoring System for Dairy Cow Estrus and Health",
+            "detailedDemand": "For large-scale pastures, monitor the activity volume, ruminating time, and body temperature of dairy cows in real time through neck tags or pedometers. The system accurately identifies the estrus of dairy cows to improve the conception rate, warns of diseases such as mastitis and hoof disease in advance, realizes individual refinement management of dairy cows, and improves milk yield and breeding benefits."
+        },
+        {
+            "id": 203,
+            "initialDemand": "Intelligent Monitoring System for Elevator Advertising Screen",
+            "detailedDemand": "For media advertising companies, monitor the on/off status, playback content consistency, and screen fault status of advertising screens in building elevators in real time. The system supports remote content update and playback verification, analyzes audience attention (through cameras, subject to privacy compliance), ensures the accurate delivery of advertisements, and improves operation and maintenance efficiency."
+        },
+        {
+            "id": 204,
+            "initialDemand": "Smart Vending Machine Fleet Management System",
+            "detailedDemand": "Serving vending machine operators, monitor the inventory quantity of each cargo lane, the status of coin/bill acceptors, and the internal temperature of the machine in real time. The system automatically generates replenishment plans and fault repair orders, analyzes sales data to optimize product selection, reduces out-of-stock time and machine failure rate, and improves single-machine revenue."
+        },
+        {
+            "id": 205,
+            "initialDemand": "Intelligent Monitoring System for Electric Vehicle Charging Pile",
+            "detailedDemand": "For charging operators, monitor the charging voltage/current, plug temperature, ground lock status, and parking space occupancy of the charging pile in real time. The system supports remote start-stop and fault reset, prevents oil vehicles from occupying spaces, ensures charging safety, improves the utilization rate of charging piles and the charging experience of car owners."
+        },
+        {
+            "id": 206,
+            "initialDemand": "Smart Retail Fitting Room Management System",
+            "detailedDemand": "For clothing retail stores, monitor the occupancy status of fitting rooms and the quantity/model of clothes brought in (via RFID) in real time. The system counts the try-on rate and transaction conversion rate of clothes, supports intelligent calls for service (such as changing sizes), improves store service efficiency and data-driven operation capabilities."
+        },
+        {
+            "id": 207,
+            "initialDemand": "Intelligent Monitoring System for Outdoor LED Display Screen",
+            "detailedDemand": "For urban landscape and advertising management, monitor the module fault (dead pixel/black screen), power supply status, and internal temperature of the large outdoor LED screen in real time. The system automatically adjusts the screen brightness according to the ambient light, warns of high temperature or circuit failure risks, ensures the display effect and operation safety."
+        },
+        {
+            "id": 208,
+            "initialDemand": "Smart Traffic Signal Adaptive Control System",
+            "detailedDemand": "Serving traffic management departments, monitor the traffic flow, queue length, and average vehicle speed of the intersection in real time through radar or video. The system dynamically adjusts the signal light duration based on real-time traffic conditions, realizes green wave control and congestion relief, improves urban road capacity, and reduces vehicle waiting time."
+        },
+        {
+            "id": 209,
+            "initialDemand": "Intelligent Monitoring System for Boiler Room in Residential Community",
+            "detailedDemand": "For property management, monitor the pressure, water temperature, water level of the heating boiler, and the concentration of gas leakage in the boiler room in real time. The system automatically controls the pump and valve to maintain constant pressure water supply and heating, warns of boiler failure or safety hazards immediately, ensures the heating quality and life safety of residents in winter."
+        },
+        {
+            "id": 210,
+            "initialDemand": "Smart Fire Extinguisher Pressure Monitoring System",
+            "detailedDemand": "For fire safety management in key places, monitor the pressure gauge reading and location presence of the fire extinguisher in real time. The system warns of insufficient pressure, expiration, or unauthorized movement of the fire extinguisher, replaces manual monthly inspections with automatic monitoring, ensures that fire fighting equipment is always in an effective state, and reduces fire safety risks."
+        },
+        {
+            "id": 211,
+            "initialDemand": "Intelligent Monitoring System for Industrial Dust Removal Equipment",
+            "detailedDemand": "For industrial pollution source supervision, monitor the differential pressure of the bag filter, the emission concentration of the outlet, and the current of the induced draft fan in real time. The system judges the dust removal efficiency and the status of the filter bag (whether it is broken or blocked), warns of excessive emissions, ensures that the enterprise meets the environmental protection standards, and reduces the risk of environmental penalties."
+        },
+        {
+            "id": 212,
+            "initialDemand": "Smart Pet Monitoring System",
+            "detailedDemand": "An intelligent care platform for urban pet owners, enabling real-time monitoring of pets' activity status, feeding times, and health indicators such as body temperature and heart rate through wearable devices and indoor sensors. The system can automatically trigger feeding devices according to preset time, send early warnings for abnormal pet behaviors (such as continuous restlessness or inactivity), support remote viewing of pet real-time images, and conduct statistical analysis of pet daily activity data to help owners optimize feeding and care plans. It fully meets the core needs of pet owners for scientific pet raising and real-time care, and is suitable for urban family scenarios raising cats, dogs and other companion animals."
+        },
+        {
+            "id": 213,
+            "initialDemand": "Smart Bicycle Anti-Theft Tracking System",
+            "detailedDemand": "An intelligent security management platform for shared bicycle operators and personal bicycle owners, which dynamically captures the real-time location of bicycles through GPS and Bluetooth positioning modules, and triggers anti-theft alarms immediately when abnormal movement or disassembly is detected. The system supports remote locking of bicycle brakes, traceability of movement trajectories, statistical analysis of theft-prone areas, and regular maintenance reminders for positioning equipment. It ensures the safety of bicycles in urban commuting, short-distance travel and campus travel scenarios, and reduces the loss rate of bicycles for operators and individuals."
+        },
+        {
+            "id": 214,
+            "initialDemand": "Smart Swimming Pool Water Quality Monitoring System",
+            "detailedDemand": "An intelligent water quality management platform for residential community swimming pools and commercial swimming clubs, which continuously collects water quality data such as pH value, residual chlorine content, turbidity and water temperature, and automatically adjusts dosing equipment according to the standard water quality range. The system has functions of water quality abnormal early warning, historical data traceability, and regular cleaning reminders for filter equipment, supports multi-terminal query of water quality status, and optimizes water quality management schemes through statistical analysis of water quality data. It is suitable for water quality management scenarios of indoor and outdoor swimming pools in communities, hotels and sports centers."
+        },
+        {
+            "id": 215,
+            "initialDemand": "Smart Express Cabinet Management System",
+            "detailedDemand": "A comprehensive management platform for community and office building express cabinets, which dynamically monitors the usage status of cabinet grids, automatically records parcel storage and pickup information, and sends pickup reminders to users in a timely manner. The system supports flexible setting of cabinet grid opening rules (such as time-limited pickup, authorization pickup), statistical analysis of parcel delivery peak periods, and maintenance reminders for cabinet door locks and communication modules. It optimizes the allocation of express cabinet resources, improves the efficiency of parcel delivery and pickup, and is suitable for express cabinet management scenarios in residential communities, office buildings and campus areas."
+        },
+        {
+            "id": 216,
+            "initialDemand": "Smart Nail Salon Equipment Management System",
+            "detailedDemand": "An intelligent operation platform for chain nail salons, which dynamically monitors the operating status of nail polish curing lamps, sterilization equipment and air purification devices, and automatically reminds of equipment maintenance and disinfection cycles. The system collects service duration data of each workstation, conducts multi-dimensional statistical analysis of equipment usage efficiency, supports customized setting of equipment operation parameters according to service types, and optimizes equipment allocation schemes to reduce idle rate. It is suitable for daily operation and equipment management scenarios of nail salons, beauty parlors and other beauty service institutions."
+        },
+        {
+            "id": 217,
+            "initialDemand": "Smart Campsite Energy Management System",
+            "detailedDemand": "An energy management platform for outdoor camping grounds and RV parks, which continuously monitors energy consumption data of photovoltaic power generation equipment, energy storage batteries and power supply sockets, and automatically adjusts energy distribution according to power demand and sunlight intensity. The system has functions of low power early warning, equipment fault alarm, and energy consumption statistical analysis, supports remote control of electrical equipment in camping areas, and helps campsite operators optimize energy use schemes to reduce operation costs. It is suitable for energy management scenarios of outdoor campsites, RV parks and self-driving travel service areas."
+        },
+        {
+            "id": 218,
+            "initialDemand": "Smart Car Wash Shop Equipment Scheduling System",
+            "detailedDemand": "An intelligent operation platform for chain car wash shops, which dynamically tracks the operating status of high-pressure water guns, foam machines, air dryers and other equipment, and automatically schedules workstations according to vehicle arrival conditions and equipment availability. The system records service time and water/electricity consumption data of each car wash task, conducts statistical analysis of equipment utilization rate, supports maintenance reminders for key components, and optimizes car wash process to improve service efficiency. It is suitable for operation management scenarios of automatic and manual car wash shops in urban areas and highway service areas."
+        },
+        {
+            "id": 219,
+            "initialDemand": "Smart Flower Shop Temperature and Humidity Management System",
+            "detailedDemand": "An environmental management platform for chain flower shops and flower wholesale markets, which continuously collects temperature, humidity and ethylene concentration data in flower storage areas, and automatically adjusts air conditioning and humidification equipment according to the preservation requirements of different flower varieties. The system has functions of fresh-keeping period prediction, abnormal environmental alarm, and equipment calibration reminders, supports remote monitoring of storage environment, and optimizes flower preservation schemes through statistical analysis of environmental data to reduce flower wilting rate. It is suitable for flower preservation scenarios of flower shops, flower greenhouses and flower logistics storage centers."
+        },
+        {
+            "id": 220,
+            "initialDemand": "Smart Gym Equipment Usage Monitoring System",
+            "detailedDemand": "An intelligent management platform for commercial gyms and community fitness centers, which dynamically captures the usage status of treadmills, dumbbell racks, elliptical machines and other fitness equipment, and records usage duration and frequency of each device. The system has functions of equipment fault real-time alarm, maintenance plan formulation based on usage intensity, and multi-dimensional statistical analysis of equipment utilization rate, supports reservation management of high-demand equipment, and helps gym operators optimize equipment layout and maintenance strategies. It is suitable for equipment management and operation optimization scenarios of large and medium-sized gyms and community fitness spaces."
+        },
+        {
+            "id": 221,
+            "initialDemand": "Smart Dry Cleaning Shop Clothing Tracking System",
+            "detailedDemand": "A full-link management platform for chain dry cleaning shops, which dynamically tracks the status of clothing from receipt, cleaning, ironing to pickup through RFID tags, and accurately records processing time and process information. The system supports one-click query of clothing status by customers, automatic reminder of overdue pickup, statistical analysis of processing efficiency of different clothing materials, and maintenance reminders for tag reading equipment. It ensures the traceability of dry cleaning services, reduces the risk of clothing loss or confusion, and is suitable for dry cleaning shop operation scenarios in residential areas and commercial districts."
+        },
+        {
+            "id": 222,
+            "initialDemand": "Smart Milk Tea Shop Material Inventory System",
+            "detailedDemand": "An intelligent inventory management platform for chain milk tea shops, which dynamically monitors the inventory of tea leaves, milk, sugar, toppings and other raw materials, and automatically sends replenishment reminders when inventory is lower than the preset threshold. The system associates inventory data with sales data, conducts statistical analysis of raw material consumption trends, supports expiration date early warning of perishable materials, and optimizes procurement plans to reduce waste. It is suitable for inventory management scenarios of milk tea shops, fruit tea stores and other beverage retail outlets."
+        },
+        {
+            "id": 223,
+            "initialDemand": "Smart Pottery Studio Environment Control System",
+            "detailedDemand": "An environmental management platform for handmade pottery studios and ceramic art creation bases, which continuously collects temperature, humidity, air dust content and kiln temperature data in the studio, and automatically adjusts environmental equipment according to the process requirements of clay shaping, drying and firing. The system supports remote monitoring of studio environment, formulation of environmental control plans tailored to ceramic creation cycles, regular calibration of temperature and humidity sensors, and optimizes creation environment through data analysis to improve the quality of ceramic works. It is suitable for environmental management scenarios of pottery studios, ceramic art workshops and handicraft creation centers."
+        },
+        {
+            "id": 224,
+            "initialDemand": "Smart Pet Boarding Monitoring System",
+            "detailedDemand": "An intelligent care platform for pet boarding centers and pet hotels, which dynamically monitors the living environment (temperature, humidity, ventilation) of pet cages, feeding times, and activity status of boarded pets through cameras and sensors. The system supports real-time video viewing by pet owners, automatic reminder of medication time for sick pets, statistical analysis of pet daily activity data, and maintenance reminders for monitoring equipment. It ensures the safety and comfort of pets during boarding, and is suitable for pet boarding scenarios in urban pet service centers and pet hotels."
+        },
+        {
+            "id": 225,
+            "initialDemand": "Smart Scooter Sharing Scheduling System",
+            "detailedDemand": "An intelligent operation platform for shared electric scooter operators, which dynamically captures the real-time location and power status of scooters through GPS and battery sensors, and automatically plans scheduling routes for staff to replenish power and relocate scooters. The system has functions of abnormal use alarm (such as driving in restricted areas), statistical analysis of usage peak periods and hot spots, and maintenance reminders for scooter batteries and brakes. It optimizes the allocation of shared scooters, improves user experience, and is suitable for shared scooter operation scenarios in urban business districts and university campuses."
+        },
+        {
+            "id": 226,
+            "initialDemand": "Smart Hot Spring Resort Water Quality Monitoring System",
+            "detailedDemand": "An intelligent water quality management platform for hot spring resorts and spa centers, which continuously collects hot spring water temperature, mineral content, pH value and bacterial count data, and automatically triggers water treatment processes when indicators exceed standards. The system supports real-time water quality query by tourists, historical data traceability, regular cleaning reminders for water circulation equipment, and optimizes water quality management schemes through statistical analysis to ensure the safety and comfort of hot spring bathing. It is suitable for water quality management scenarios of hot spring resorts, spa centers and health care clubs."
+        },
+        {
+            "id": 227,
+            "initialDemand": "Smart Bookstore Passenger Flow and Display System",
+            "detailedDemand": "An intelligent operation platform for physical bookstores and cultural book malls, which dynamically captures passenger flow data of different areas in the store through infrared sensors, and analyzes the browsing duration and preference of customers for different book categories. The system supports optimized adjustment of book display positions according to passenger flow and browsing data, statistical analysis of sales conversion rate, and maintenance reminders for passenger flow counting equipment. It helps bookstores improve space utilization and sales efficiency, and is suitable for operation management scenarios of comprehensive bookstores, specialty bookstores and campus book corners."
+        },
+        {
+            "id": 228,
+            "initialDemand": "Smart Barber Shop Workstation Management System",
+            "detailedDemand": "An intelligent operation platform for chain barber shops and hair salons, which dynamically monitors the usage status of each workstation (hair cutting chairs, hair dryers, perm and dye equipment), and records service duration and customer flow data. The system has functions of workstation reservation management, equipment fault alarm, statistical analysis of service efficiency, and maintenance reminders for electrical equipment. It optimizes the scheduling of workstations and staff, improves service turnover rate, and is suitable for operation management scenarios of barber shops, hair salons and beauty salons."
+        },
+        {
+            "id": 229,
+            "initialDemand": "Smart Climbing Gym Safety Monitoring System",
+            "detailedDemand": "A safety management platform for indoor climbing gyms and outdoor climbing bases, which dynamically monitors the load status of climbing ropes, the firmness of rock climbing walls, and the real-time location of climbers through pressure sensors and positioning modules. The system triggers safety alarms immediately when abnormal load or dangerous behavior is detected, supports emergency stop of protective equipment, statistical analysis of safety incident risks, and maintenance reminders for climbing equipment. It ensures the safety of climbers in indoor and outdoor climbing scenarios, and is suitable for safety management of climbing gyms, adventure parks and outdoor sports clubs."
+        },
+        {
+            "id": 230,
+            "initialDemand": "Smart Bakery Baking Environment System",
+            "detailedDemand": "An environmental management platform for chain bakeries and pastry shops, which continuously collects oven temperature, humidity, baking time and dough fermentation environment data, and automatically adjusts oven parameters according to different pastry varieties and baking processes. The system has functions of baking quality traceability, equipment fault alarm, statistical analysis of baking efficiency, and calibration reminders for temperature sensors. It optimizes baking processes to improve the consistency of pastry quality, and is suitable for baking environment management scenarios of bakeries, pastry factories and dessert shops."
+        },
+        {
+            "id": 231,
+            "initialDemand": "Smart Fishing Tackle Shop Inventory and Rental System",
+            "detailedDemand": "An intelligent asset management platform for fishing tackle shops and outdoor sports equipment rental stores, which dynamically monitors the inventory of fishing rods, reels, bait and other equipment, and records rental information (rental time, usage location, return status) of leased equipment. The system supports automatic overdue return reminders, statistical analysis of equipment rental frequency and loss rate, and maintenance reminders for leased equipment. It optimizes inventory and rental management, reduces loss, and is suitable for fishing tackle shops, outdoor equipment rental stores and fishing club management scenarios."
+        },
+        {
+            "id": 232,
+            "initialDemand": "Smart Yoga Studio Environment Regulation System",
+            "detailedDemand": "An environmental management platform for yoga studios and meditation centers, which continuously collects indoor temperature, humidity, air quality and sound decibel data, and automatically adjusts air conditioning, humidifiers and sound insulation equipment to create a quiet and comfortable yoga practice environment. The system supports remote monitoring of studio environment, formulation of environment control plans for different yoga courses (such as hot yoga, restorative yoga), and maintenance reminders for environmental equipment. It improves the practice experience of yoga practitioners, and is suitable for environmental management scenarios of yoga studios, meditation centers and wellness clubs."
+        },
+        {
+            "id": 233,
+            "initialDemand": "Smart Cafe Energy Consumption Management System",
+            "detailedDemand": "An energy management platform for chain cafes and independent coffee shops, which continuously collects energy consumption data of coffee machines, refrigerators, air conditioners and lighting equipment, and conducts trend analysis and abnormal consumption early warning based on historical data. The system supports intelligent adjustment of equipment working status (such as low-power mode during off-peak hours), statistical analysis of energy consumption per cup of coffee, and maintenance reminders for energy-consuming equipment. It helps cafes reduce energy consumption and operation costs, and is suitable for energy management scenarios of cafes, coffee roasteries and beverage shops."
+        },
+        {
+            "id": 234,
+            "initialDemand": "Smart Billiard Hall Equipment Management System",
+            "detailedDemand": "An intelligent operation platform for billiard halls and leisure clubs, which dynamically monitors the usage status of billiard tables, cue maintenance status and lighting equipment in each area, and records the usage duration and consumption data of each table. The system supports table reservation management, automatic reminder of table cleaning and maintenance, statistical analysis of table utilization rate, and fault alarm of lighting and scoring equipment. It optimizes the operation efficiency of billiard halls, and is suitable for equipment management scenarios of billiard halls, leisure clubs and entertainment centers."
+        },
+        {
+            "id": 235,
+            "initialDemand": "Smart Photo Studio Equipment Status System",
+            "detailedDemand": "An intelligent equipment management platform for photo studios and portrait photography centers, which dynamically monitors the operating status of cameras, lighting equipment, background cloth motors and photo printers, and records equipment usage time and fault information. The system has functions of equipment maintenance plan formulation based on usage intensity, statistical analysis of equipment utilization rate, and automatic reminder of printer ink and paper replenishment. It ensures the normal operation of shooting equipment, and is suitable for equipment management scenarios of photo studios, wedding photography centers and commercial shooting bases."
+        },
+        {
+            "id": 236,
+            "initialDemand": "Smart Pet Funeral Service Tracking System",
+            "detailedDemand": "A full-link management platform for pet funeral service agencies, which dynamically tracks the status of pet remains from reception, refrigeration, funeral ceremony to interment/cremation through RFID tags, and accurately records each process and time node. The system supports real-time status query by pet owners, traceability of funeral service records, statistical analysis of service efficiency, and maintenance reminders for refrigeration and cremation equipment. It ensures the standardization and transparency of pet funeral services, and is suitable for pet funeral service scenarios in urban pet memorial parks and funeral agencies."
+        },
+        {
+            "id": 237,
+            "initialDemand": "Smart Electric Wheelchair Positioning Monitoring System",
+            "detailedDemand": "An intelligent mobility aid management platform for the elderly and disabled, which dynamically captures the real-time location and battery status of electric wheelchairs through GPS and battery sensors, and triggers alarms when the wheelchair leaves the preset safe area or the battery is low. The system supports remote control of wheelchair speed (for emergency situations), statistical analysis of movement trajectories and usage time, and maintenance reminders for wheelchair motors and brakes. It ensures the safety and mobility of users, and is suitable for electric wheelchair use scenarios in communities, nursing homes and hospitals."
+        },
+        {
+            "id": 238,
+            "initialDemand": "Smart Tea House Tea Set Management System",
+            "detailedDemand": "An intelligent asset management platform for traditional tea houses and tea culture experience centers, which dynamically monitors the inventory, cleaning status and usage frequency of tea sets (teapots, tea cups, tea trays), and automatically reminds of cleaning and disinfection cycles. The system records the usage of tea sets for different tea varieties, conducts statistical analysis of loss rate and utilization rate, and supports customized management of high-value tea sets. It optimizes tea set management, preserves tea culture experience, and is suitable for tea house operation and tea culture exhibition scenarios."
+        },
+        {
+            "id": 239,
+            "initialDemand": "Smart Karting Track Operation Monitoring System",
+            "detailedDemand": "An intelligent operation platform for karting tracks and racing entertainment centers, which dynamically monitors the speed, position and operating status of each kart through speed sensors and positioning modules, and automatically triggers speed limits in dangerous sections. The system records lap times and driving data of drivers, conducts statistical analysis of track utilization rate and equipment fault rate, and maintenance reminders for kart engines and brakes. It ensures the safety and operation efficiency of karting tracks, and is suitable for karting track management, racing clubs and entertainment park scenarios."
+        },
+        {
+            "id": 240,
+            "initialDemand": "Smart Honey Breeding Environment Monitoring System",
+            "detailedDemand": "An environmental management platform for bee farms and honey breeding bases, which continuously collects temperature, humidity, hive vibration and nectar source proximity data around beehives, and automatically adjusts hive placement and ventilation according to bee activity rules. The system has functions of swarm activity abnormal alarm, honey production statistical analysis, and maintenance reminders for monitoring sensors. It optimizes honey breeding conditions, improves honey yield and quality, and is suitable for honey breeding scenarios in rural areas, ecological farms and apiaries."
+        },
+        {
+            "id": 241,
+            "initialDemand": "Smart Board Game Cafe Passenger Flow Management System",
+            "detailedDemand": "An intelligent operation platform for board game cafes and leisure game centers, which dynamically captures passenger flow data of different game areas through infrared sensors, and records the usage duration of board game sets and table occupancy status. The system supports area reservation management, automatic reminder of game set return and disinfection, statistical analysis of passenger flow peak periods and popular game types, and maintenance reminders for passenger flow counting equipment. It optimizes space and game set management, and is suitable for board game cafes, game centers and leisure entertainment venues."
+        },
+        {
+            "id": 242,
+            "initialDemand": "Smart Blind Travel Assistance Monitoring System",
+            "detailedDemand": "An intelligent travel aid platform for visually impaired people, which dynamically monitors the surrounding environment (obstacles, road conditions, traffic lights) of the blind through ultrasonic sensors and GPS, and sends voice prompts in real time to guide safe travel. The system supports connection with smart city traffic systems, emergency help triggering (one-click call for help), statistical analysis of travel routes and obstacle encounter frequency, and maintenance reminders for wearable assistive devices. It improves the travel safety and independence of the blind, and is suitable for urban travel scenarios of visually impaired people in communities, commercial districts and transportation hubs."
+        },
+        {
+            "id": 243,
+            "initialDemand": "Smart Ice Cream Machine Operation Monitoring System",
+            "detailedDemand": "An intelligent equipment management platform for catering establishments with ice cream machines (fast food restaurants, dessert shops, convenience stores), which dynamically monitors the operating status, refrigerant level and temperature of ice cream machines, and triggers alarms when equipment malfunctions or raw materials are insufficient. The system records production volume and flavor sales data, conducts statistical analysis of equipment utilization rate and failure rate, and maintenance reminders for cleaning and refrigerant replenishment. It ensures the stable supply of ice cream products, and is suitable for ice cream machine management scenarios in fast food chains, dessert shops and retail stores."
+        },
+        {
+            "id": 244,
+            "initialDemand": "Smart Handmade Jewelry Workshop Material System",
+            "detailedDemand": "An intelligent material management platform for handmade jewelry workshops and accessory design studios, which dynamically monitors the inventory of precious metals, gemstones, beads and other raw materials, and records material usage for each jewelry design and production process. The system supports expiration date early warning (for non-precious materials), traceability of material sources, statistical analysis of material loss rate, and maintenance reminders for material storage equipment (such as anti-theft cabinets). It optimizes material management, reduces waste, and is suitable for handmade jewelry workshops, accessory design centers and craft production scenarios."
+        },
+        {
+            "id": 245,
+            "initialDemand": "Smart Shared Power Bank Scheduling System",
+            "detailedDemand": "An intelligent operation platform for shared power bank operators, which dynamically captures the real-time location, power level and usage status of power bank stations through sensors, and automatically plans scheduling routes for staff to replenish or relocate power banks. The system has functions of abnormal use alarm (such as damage to power banks), statistical analysis of usage peak periods and hot spots, and maintenance reminders for charging stations and power banks. It optimizes the allocation of shared power banks, improves user availability, and is suitable for shared power bank operation scenarios in shopping malls, restaurants and transportation hubs."
+        },
+        {
+            "id": 246,
+            "initialDemand": "Smart Winery Cellar Environment Control System",
+            "detailedDemand": "An environmental management platform for wineries and wine cellars, which continuously collects temperature, humidity, air pressure and light intensity data in the cellar, and automatically adjusts temperature and humidity control equipment according to the storage requirements of different grape varieties and wine ages. The system supports remote monitoring of cellar environment, traceability of wine storage conditions, statistical analysis of environmental impact on wine quality, and calibration reminders for environmental sensors. It ensures the quality of wine during storage, and is suitable for wine cellar management scenarios in wineries, high-end restaurants and private wine cellars."
+        },
+        {
+            "id": 247,
+            "initialDemand": "Smart Trampoline Park Safety Monitoring System",
+            "detailedDemand": "A safety management platform for indoor trampoline parks and children's play centers, which dynamically monitors the load status of trampoline mats, the number of people in each area (to prevent overcrowding), and the operating status of protective equipment through pressure and infrared sensors. The system triggers safety alarms immediately when abnormal load or dangerous behavior is detected, supports real-time monitoring of video surveillance, statistical analysis of safety incident risks, and maintenance reminders for trampoline mats and protective fences. It ensures the safety of visitors (especially children), and is suitable for safety management scenarios of trampoline parks, children's play centers and adventure parks."
+        },
+        {
+            "id": 248,
+            "initialDemand": "Smart Outdoor Barbecue Grill Temperature Control System",
+            "detailedDemand": "An intelligent cooking equipment management platform for outdoor barbecue parks and self-service barbecue restaurants, which continuously monitors the temperature of barbecue grills (charcoal/gas), and automatically adjusts air intake or gas flow to maintain a stable cooking temperature. The system supports preset temperature for different ingredients (meat, vegetables, seafood), statistical analysis of fuel consumption, and maintenance reminders for grill burners and temperature sensors. It improves the barbecue experience and reduces fuel waste, and is suitable for outdoor barbecue parks, self-service barbecue restaurants and camping ground barbecue areas."
+        },
+        {
+            "id": 249,
+            "initialDemand": "Smart Laundromat Equipment Management System",
+            "detailedDemand": "An intelligent operation platform for self-service laundromats and community laundry centers, which dynamically monitors the operating status of washing machines, dryers and coin/card payment systems, and records usage time, water/electricity consumption and fault information. The system supports remote fault diagnosis, automatic reminder of equipment cleaning and maintenance, statistical analysis of equipment utilization rate and income, and calibration reminders for payment systems. It optimizes the operation efficiency of laundromats, and is suitable for self-service laundromats, community laundry centers and hotel laundry rooms."
+        },
+        {
+            "id": 250,
+            "initialDemand": "Smart Cigar Room Temperature and Humidity System",
+            "detailedDemand": "An environmental management platform for high-end cigar rooms and tobacco stores, which continuously collects temperature, humidity, air circulation and cigar storage density data in the cigar room, and automatically adjusts humidifiers, dehumidifiers and ventilation equipment to meet the strict storage requirements of cigars. The system supports remote monitoring of room environment, traceability of cigar storage conditions, statistical analysis of environmental impact on cigar quality, and maintenance reminders for environmental control equipment. It preserves the quality and flavor of cigars, and is suitable for cigar room management scenarios in high-end clubs, tobacco stores and private residences."
+        },
+        {
+            "id": 251,
+            "initialDemand": "Smart Roller Skating Rink Operation Monitoring System",
+            "detailedDemand": "An intelligent operation platform for indoor and outdoor roller skating rinks, which dynamically monitors the number of skaters in each area (to prevent overcrowding), the condition of skating surfaces, and the operating status of rental skates through infrared sensors and wear detection modules. The system triggers safety alarms for overcrowding or damaged skating surfaces, records rental information of skates, conducts statistical analysis of rink utilization rate and skate loss rate, and maintenance reminders for skating surface repair and skate maintenance. It ensures the safety and operation efficiency of roller skating rinks, and is suitable for roller skating rinks, sports centers and entertainment parks."
+        },
+        {
+            "id": 252,
+            "initialDemand": "Smart Silkworm Breeding Environment Monitoring System",
+            "detailedDemand": "An environmental management platform for sericulture farms and silk production bases, which continuously collects temperature, humidity, air quality and mulberry leaf freshness data in silkworm breeding rooms, and automatically adjusts environmental equipment according to the growth stages of silkworms (egg, larva, pupa, adult). The system has functions of silkworm growth status abnormal alarm, cocoon production statistical analysis, and maintenance reminders for environmental sensors. It optimizes silkworm breeding conditions, improves cocoon yield and quality, and is suitable for sericulture scenarios in rural sericulture bases and silk processing workshops."
+        },
+        {
+            "id": 253,
+            "initialDemand": "Smart Study Room Seat Management System",
+            "detailedDemand": "An intelligent management platform for self-study rooms and shared study spaces, which dynamically monitors the occupancy status of each seat through infrared sensors, and supports online reservation and real-time seat status query by users. The system records seat usage duration, conducts statistical analysis of peak usage periods and seat utilization rate, automatically reminds of overstay, and maintenance reminders for seat locking and occupancy detection equipment. It optimizes seat allocation, improves the utilization rate of study space, and is suitable for self-study rooms, libraries and shared study centers."
+        },
+        {
+            "id": 254,
+            "initialDemand": "Smart Mobile Coffee Cart Operation System",
+            "detailedDemand": "An intelligent operation platform for mobile coffee carts and street food vending vehicles, which continuously monitors energy consumption (battery/power), inventory of coffee raw materials, and sales data through sensors and POS systems. The system supports real-time positioning of the cart, automatic reminder of raw material replenishment and battery charging, statistical analysis of sales hot spots and peak periods, and maintenance reminders for coffee machines and refrigeration equipment. It optimizes the operation efficiency of mobile coffee carts, and is suitable for mobile vending scenarios in urban parks, business districts and event venues."
+        },
+        {
+            "id": 255,
+            "initialDemand": "Smart Pet Hospital Equipment Monitoring System",
+            "detailedDemand": "An intelligent equipment management platform for pet hospitals and veterinary clinics, which dynamically monitors the operating status of diagnostic equipment (ultrasound, blood analyzers), anesthesia machines, and incubators, and records equipment usage time and patient diagnosis data. The system has functions of equipment maintenance plan formulation based on usage intensity, fault real-time alarm, statistical analysis of equipment utilization rate, and calibration reminders for diagnostic equipment. It ensures the normal operation of medical equipment, and is suitable for equipment management scenarios in pet hospitals, veterinary clinics and animal health centers."
+        },
+        {
+            "id": 256,
+            "initialDemand": "Smart Incense Making Workshop Environment Control System",
+            "detailedDemand": "An environmental management platform for traditional incense making workshops and aromatic product production bases, which continuously collects temperature, humidity, air flow and incense raw material humidity data in the workshop, and automatically adjusts environmental equipment according to the process requirements of incense blending, kneading and drying. The system supports remote monitoring of workshop environment, traceability of incense production conditions, statistical analysis of environmental impact on incense aroma, and maintenance reminders for environmental control equipment. It preserves the traditional flavor and quality of incense products, and is suitable for incense making workshops, aromatic product factories and handicraft production scenarios."
+        },
+        {
+            "id": 257,
+            "initialDemand": "Smart Shared Umbrella Scheduling System",
+            "detailedDemand": "An intelligent operation platform for shared umbrella operators, which dynamically captures the real-time location and inventory status of umbrella sharing stations through GPS and infrared sensors, and automatically plans scheduling routes for staff to replenish umbrellas in rainy areas and retrieve them in sunny areas. The system has functions of overdue return alarm, statistical analysis of usage frequency and loss rate, and maintenance reminders for umbrella station locks and sensors. It optimizes the allocation of shared umbrellas, improves user availability, and is suitable for shared umbrella operation scenarios in shopping malls, subway stations and office buildings."
+        },
+        {
+            "id": 258,
+            "initialDemand": "Smart Pickled Vegetable Workshop Fermentation Environment System",
+            "detailedDemand": "An environmental management platform for pickled vegetable workshops and food processing factories, which continuously collects temperature, salinity, pH value and fermentation time data of pickled vegetable vats, and automatically adjusts fermentation conditions according to different pickled vegetable varieties and fermentation stages. The system has functions of fermentation quality traceability, abnormal fermentation alarm, statistical analysis of fermentation efficiency, and calibration reminders for sensors. It optimizes fermentation processes to improve the taste and safety of pickled vegetables, and is suitable for pickled vegetable workshops, food processing factories and rural characteristic food production scenarios."
+        },
+        {
+            "id": 259,
+            "initialDemand": "Smart Roller Skate Rental Monitoring System",
+            "detailedDemand": "An intelligent asset management platform for roller skate rental stores and sports equipment rental centers, which dynamically monitors the inventory, usage status (wear level) and rental information of roller skates (inline, quad), and records rental time, user information and return status. The system supports automatic overdue return reminders, statistical analysis of rental frequency and wear rate, and maintenance reminders for skate maintenance and replacement. It optimizes rental management, reduces loss, and is suitable for roller skate rental stores, sports clubs and entertainment park equipment rental scenarios."
+        },
+        {
+            "id": 260,
+            "initialDemand": "Smart Meditation Room Environment Regulation System",
+            "detailedDemand": "An environmental management platform for meditation rooms and wellness centers, which continuously collects indoor temperature, humidity, air quality, sound decibel and light intensity data, and automatically adjusts air conditioning, sound insulation equipment and lighting to create a quiet, comfortable and distraction-free meditation environment. The system supports remote monitoring of room environment, formulation of environment control plans for different meditation styles (mindfulness, transcendental), and maintenance reminders for environmental equipment. It improves the meditation experience, and is suitable for meditation rooms, wellness centers, spas and mental health counseling centers."
+        },
+        {
+            "id": 261,
+            "initialDemand": "Smart Small Bee Farm Breeding Monitoring System",
+            "detailedDemand": "An environmental management platform for small-scale bee farms and hobbyist beekeeping operations, which continuously collects temperature, humidity, hive weight and foraging activity data around beehives, and sends early warnings for abnormal hive conditions (such as pest infestation, queen bee loss). The system supports real-time monitoring of hive status via mobile App, statistical analysis of honey production and bee colony health, and maintenance reminders for monitoring sensors and hive equipment. It helps small-scale beekeepers manage colonies efficiently, improves honey yield, and is suitable for small bee farms, rural hobbyist beekeeping and urban rooftop beekeeping scenarios."
+        }
+    ]
+}
