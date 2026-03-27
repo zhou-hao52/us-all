@@ -9,7 +9,7 @@ This project is a comprehensive toolset for generating and evaluating high-quali
 ```
 us-all/
 ├── requirement/
-│   └── requirements.json       # Contains 61 IoT user requirements
+│   └── requirements.json       # Contains 261 IoT user requirements
 ├── us-evaluate/                # User story evaluation tools
 │   ├── Acceptance Criteria_prompt.md
 │   ├── Scenarios_prompt.md
@@ -25,7 +25,7 @@ us-all/
 
 ### 1. Requirement Management
 
-The `requirements.json` file contains 61 detailed IoT system requirements, each with:
+The `requirements.json` file contains 261 detailed IoT system requirements, each with:
 - Unique ID
 - Initial demand description
 - Detailed demand specifications
